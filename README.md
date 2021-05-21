@@ -14,4 +14,6 @@ The course will consist of 6 different parts that will cover necessary topics of
 
 ![Basics overview](assets/basics-overview.png)
 
-![Screenshot 2021-05-21 at 09.55.29](assets/codeflow-overview.png)
+---
+
+![Codeflow overview](assets/codeflow-overview.png)
