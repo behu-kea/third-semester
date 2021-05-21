@@ -8,4 +8,4 @@ This module will teach you frontend development in 15 weeks. We will start with 
 
 
 
-![Screenshot 2021-05-21 at 09.39.05](../../screenshots/Screenshot 2021-05-21 at 09.39.05.png)
+![Screenshot 2021-05-21 at 09.39.05](assets/basics-overview.png)
