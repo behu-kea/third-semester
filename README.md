@@ -17,3 +17,20 @@ The course will consist of 6 different parts that will cover necessary topics of
 ---
 
 ![Codeflow overview](assets/codeflow-overview.png)
+
+
+
+
+
+
+
+
+
+<p align="center">
+  <a href="./learning-paths/groundwork-for-student-learning.md">
+    <img width="300px" alt="Lets get started" src="./assets/lets-get-started.png" />
+  </a>
+</p>
+
+
+
