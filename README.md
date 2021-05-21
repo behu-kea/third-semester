@@ -10,6 +10,8 @@ This module will teach you **frontend webdevelopment in 15 weeks**. We will star
 
 The course will consist of 6 different parts that will cover necessary topics of learning frontend development. Here is the overview of the topics 👇
 
+*Styling and layout for the overviews taken from https://threejs-journey.xyz/*
+
 
 
 ![Basics overview](assets/basics-overview-1.png)
@@ -21,6 +23,23 @@ The course will consist of 6 different parts that will cover necessary topics of
 
 
 
+
+## Structure of classes
+
+The classes will be run with minimal teaching so you can focus on learning through doing. It will be structured with 
+
+
+
+
+
+## Projects
+
+These are some of the projects you will be building
+
+
+
+- Netflix clone
+- 
 
 
 
