@@ -12,7 +12,7 @@ The course will consist of 6 different parts that will cover necessary topics of
 
 
 
-![Basics overview](assets/basics-overview.png)
+![Basics overview](assets/basics-overview-1.png)
 
 ---
 
