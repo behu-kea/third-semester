@@ -6,7 +6,12 @@ This module will teach you frontend development in 15 weeks. We will start with 
 
 
 
+## Course overview
+
+The course will consist of 6 different parts that will cover necessary topics of learning frontend development. Here is the overview of the topics 👇
+
 
 
 ![Basics overview](assets/basics-overview.png)
 
+![Screenshot 2021-05-21 at 09.55.29](assets/codeflow-overview.png)

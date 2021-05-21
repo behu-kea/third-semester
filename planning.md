@@ -26,7 +26,7 @@
 - conditionals
   - If else
 - For loop
-- Methods
+- Functions
 - Scope
 
 
