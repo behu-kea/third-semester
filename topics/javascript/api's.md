@@ -1,69 +1,78 @@
 # API's
 
-### Explanation[#](https://syllabus.codeyourfuture.io/js-core-3/week-2/lesson#explanation)
+You should have a fairly good idea of what an API is from the backend module. You should also have an idea of what Postman is and how to use it. With Postman we send a request to an API and get some data back. 
 
-- API stands for `Application Programming Interface`
-- APIs are created by providers and used by consumers
-- It is a specific part of a larger system that can be contacted by other systems, for example from the internet.
-- When we connect to an `API` we say that we are connecting to an `Endpoint`
-- Some well-known APIs are [Facebook APIs](https://developers.facebook.com/), [Twitter APIs](https://developer.twitter.com/en/docs), [Maps APIs](https://developers.google.com/maps/documentation) and many many more
-- In particular, an API doesn't care what language or technology is used in the consumer or the provider
-
-An API is a set of rules that allow programs to talk to each other. The  developer creates the API on the server and allows the client to talk to it. An example of a server is the application on a computer hosting a  website and an example of a client is the browser on the phone trying to access the website.
+In Javascript we need to do the **exact** same! There are different tools for fetching data from an api with javascript, but we will be using a method called `fetch`. `fetch` does exactly the same as Postman
 
 
 
-#### Why do we need APIs?
+## Public API's
 
-Imagine that I am a big social network and I want to give developers all over  the world access to the data on the people on my website.
+There are lots of API's online. It might be a new concept for you to work with these API's but they work exactly like the API you have created in the backend module. Here is a list of some fun/cool/quirky API's
 
-What are some problems that I would have with sharing my data with everyone?
+- https://yesno.wtf/api/ - An API that will return either yes or no
+- http://deckofcardsapi.com/ - An API that will give you different data simulating a deck of cards
+- https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8&#8217 - API that will give you a random number by measuring quantum fluctuations of a vacuum in real-time!
+- http://api.open-notify.org/astros.json - API showing the number of people in space right now
+- https://dog.ceo/api/breeds/image/random - Get a random image of a dog
 
-1. Some of the information that I have is public (for example, peoples names)  whilst other information I have is private (for example, email  addresses). I want to make sure that I only ever give developers access  to peoples names but never to their email addresses - otherwise they  could send them spam email.
-2. I want to make sure that when  developers ask for my data I can control who has access to it. I like  that my users data is being used to make their lives better but I don't  like it when companies try to sell them new stuff they don't need.
-3. Some developers might want to change some of the users details on my social  network and this would get very messy quickly if people where allowed to change whatever they wanted
-
-An API is a special type of program what acts as a **gatekeeper** to all of this information. Having an API means that I can control  which information is shared about my users and who it is shared with.  Perfect!
-
-
-
-#### Types of APIs
-
-- Private: for employees only under a company network for internal use.
-- Semi-private: for clients who paid for the API.
-- Public: for everyone on the web (but may or may not need an account to use).
+Here is a **huge** list of public API's: https://github.com/public-apis/public-apis
 
 
 
-##### Examples
+## GETting data from an API using `fetch`
 
-Here is the API endpoint for Transport For London
+Lets's get some data from an API using `fetch` 👇
 
-https://api.tfl.gov.uk
+```jade
+const apiUrl = 'https://yesno.wtf/api/';
+fetch(apiUrl)
+    .then(response => response.json())
+    .then(yesOrNoData => {
+        console.log(yesOrNoData);
+    });
+```
 
-The data from this endpoint will be used by many apps that you use every day - Google Maps and Citymapper to name two.
+There are somethings going on here. 
 
-This endpoint will get location of all of the Bikepoints in London.
+- `fetch(apiUrl)` - will send a `GET` request to `'https://yesno.wtf/api/'`
+- `.then(response => response.json())` - Will take the response from the API and encode the JSON so we can use it in Javascript
+- `.then(yesOrNoData => {
+          console.log(yesOrNoData);
+      });` - Will log the data received from the API to the console
 
-https://api.tfl.gov.uk/BikePoint
-
-That's a lot of Bikes! It would be better if we could search for a location. Luckily this API let's us search for places.
-
-https://api.tfl.gov.uk/BikePoint/Search?query=Clerkenwell
-
-This API also has lots of other endpoints that we can use to get other data. For example, lets find the Air Quality of London.
-
-https://api.tfl.gov.uk/AirQuality
-
-As you can see the URL changes the data that we get from the API. This can be broken down like this
-
-![img](https://syllabus.codeyourfuture.io/d0825b367234d87595094acd4af9939b.png)
-
-
-
-## GET request
+The `.then` is a new concept that you will learn in the next class. Basically callling the `fetch` method returns a `Promise`. But for now just focus on how to use `fetch` to get data from an API. 
 
 
 
-## `fetch`
+## POSTing data from an API using `fetch`
+
+To post data to an API there are two things you need to specify
+
+```js
+const apiUrl = 'https://my-json-server.typicode.com/typicode/demo/posts';
+fetch(apiUrl, {
+	method: 'POST',
+  body: JSON.stringify( { id: 42, title, "Test title" }),
+	})
+    .then(response => response.json())
+    .then(dataReturnedFromPosting => {
+        console.log(yesOrNoData);
+    });
+```
+
+1. `method: 'POST',` - Telling the `fetch` method that the request we will be making should be a `POST` request
+2. `body: JSON.stringify( { id: 42, title, "Test title" }),` - Here we specify the method by taking the data we need to `POST` and encoding it into JSON. 
+
+
+
+You can also `PUT`, `PATCH` and `DELETE` using `fetch`
+
+
+
+## Exercises
+
+### Exercise 1
+
+Fetch astronauts
 
