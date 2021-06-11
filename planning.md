@@ -6,39 +6,40 @@
 
 
 
-**Basics**
+**Basics** 2 uger - teoretisk
 
 - Variables
+  - Let
+  - Const
 - Types
   - Number
   - String
   - Boolean
   - Array
+- Typeof
 - Expressions
-- Logging
 - Operators
-- console.log
+- Debugging
+  - console.log
+  - Dev tools debugger
+- Objects
+  - Get, set
+  - Array of objects
 
 
 
-**Codeflow**
+**Codeflow** 2 uger - teoretisk
 
-- conditionals
+- Conditionals
   - If else
 - For loop
 - Functions
+  - Arrow function
 - Scope
 
 
 
-**Objects**
-
-- Get, set
-- Array of objects
-
-
-
-**DOM**
+**DOM** 1 uge - sjov
 
 - Getting elements
 - Inserting elements
@@ -46,7 +47,7 @@
 
 
 
-**Array methods**
+**Array methods** 1 uge - teoretisk
 
 - Filter
 - Map
@@ -54,46 +55,74 @@
 
 
 
-**Async programming**
+**Async programming** 3 uger - teoretisk
 
-- Function can be passed around
+- SetTimeout/setInterval - Practical
+
+- Function continued
   - Callback
-- Settimeout/setinterval
+  - Function can be passed around
 - Promise
-  - Async await
+- Async await
 - Maybe callstack
-- API's
-  - Fetch
-  - Ajax
 
 
+
+**API's** - sjov
+
+- JSON
+- Get request
+
+- Fetch
+- Ajax
 
 
 
 ## React
 
-Component model
+**Component model**
 
 - What is a component
-- When to split component
-- Component tree
+- UI to component tree
 - Jsx
 - Structure of an react application
 - Keys
 
-Props
+- Props
 
-State
+
+
+**Reacting to changes**
+
+- State
+  - Hooks 
+  - useState
 
 - Events
 
-Forms
-
-Data fetching
 
 
 
 
+**Forms**
 
-What initiatives do you think traditional educational institutions can create in order for more women to apply to study technology/programming? 
+- Controlled inputs
+
+
+
+**Data fetching**
+
+- Fetch
+  - Get
+  - Post
+
+
+
+**Building an application**
+
+- Routing
+- User authentication
+  - JWT
+
+
 

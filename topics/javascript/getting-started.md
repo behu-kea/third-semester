@@ -49,7 +49,7 @@ This will `log` the text `Hello world` to the `console`.
 
 
 
-## Exercise
+## Exercise - 1
 
 *(This exercise will help you expand your understanding of console.log)*
 
