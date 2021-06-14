@@ -8,13 +8,11 @@ https://www.youtube.com/watch?v=Opl-KwCBxRg
 
 https://www.youtube.com/watch?v=Opl-KwCBxRg
 
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Opl-KwCBxRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-```
-{embed YouTube video: 'https://www.youtube.com/embed/Opl-KwCBxRg'}
-```
 
-<!--<iframe src="https://www.youtube.com/embed/Opl-KwCBxRg" width="100%" height="400px"></iframe>-->
 
 > Note the two different uses of the equals sign:
 > A single equals sign (=) is used to assign a value to a variable.
