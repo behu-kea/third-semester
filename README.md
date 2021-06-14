@@ -30,13 +30,22 @@ The classes will be run with minimal teaching so you can focus on learning throu
 
 
 
+## Homework
+
+In the Javascript part there will be 2 projects to hand in. 
+
+1. A homework foucsing on the more basic parts of Javascript
+2. A project that will focus on all aspects of Javascript
+
+
+
+In the react course you will be working with your individual projects!
+
 
 
 ## Projects
 
 These are some of the projects you will be building
-
-
 
 - Netflix clone
 - 
@@ -50,6 +59,5 @@ These are some of the projects you will be building
     <img width="300px" alt="Lets get started" src="./assets/lets-get-started.png" />
   </a>
 </p>
-
 
 
