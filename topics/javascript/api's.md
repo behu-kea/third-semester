@@ -22,6 +22,8 @@ Here is a **huge** list of public API's: https://github.com/public-apis/public-a
 
 ## GETting data from an API using `fetch`
 
+This technology of getting data from a server is called **AJAX**
+
 Lets's get some data from an API using `fetch` 👇
 
 ```jade

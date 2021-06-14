@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=Opl-KwCBxRg
 
 
 
-### [Equality operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=equality-operators)
+### Equality operators
 
 - Equality `==`
 - Inequality `!=`
@@ -41,7 +41,7 @@ We strongly recommend that you always use the strict form when comparing for equ
 
 
 
-### [Relational operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=relational-operators)
+### Relational operators
 
 - Greater than operator `>`
 - Greater than or equal operator `>=`
@@ -61,7 +61,7 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 
 
-## [Arithmetic operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=arithmetic-operators)
+## Arithmetic operators
 
 - Addition `+`
 - Subtraction `-`
@@ -88,7 +88,7 @@ More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 
 
-## [Logical operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=logical-operators)
+## Logical operators
 
 https://www.youtube.com/embed/RWms0XG75r4
 
@@ -131,7 +131,7 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 
 
 
-### [typeof operator](https://hackyourfuture.github.io/study/#/javascript/operators?id=typeof-operator)
+### `typeof` operator
 
 To get the type of a value assigned to a variable, use the following code:
 

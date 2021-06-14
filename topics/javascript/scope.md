@@ -62,3 +62,4 @@ In relation to scope both also behave differently: they are block scoped. This m
 
 
 > Taken from https://hackyourfuture.github.io/study/#/javascript/scope
+

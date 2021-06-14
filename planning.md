@@ -55,7 +55,15 @@
 
 
 
-**Async programming** 3 uger - teoretisk
+**API's** - sjov
+
+- Get request
+- Fetch
+  - Ajax
+
+
+
+**Async programming**
 
 - SetTimeout/setInterval - Practical
 
@@ -63,18 +71,6 @@
   - Callback
   - Function can be passed around
 - Promise
-- Async await
-- Maybe callstack
-
-
-
-**API's** - sjov
-
-- JSON
-- Get request
-
-- Fetch
-- Ajax
 
 
 
@@ -128,6 +124,17 @@
 
 ## Considerations
 
-- Should i have homework fx every 2. Week?
-- What should the first js project be, should i even have it there?
-- Should it be fully flipped?
+- What should the first js project be? 
+- Should the class be fully flipped?
+- Should i use webpack or not: Maybe this: https://github.com/LaksForks/vanilla-js-boilerplate. Yes i should use web pack
+
+
+
+
+
+## Homeworks
+
+1. One after Array mehods. Not seperate project week!
+2. One after async that they will be working with for 1.5 weeks. Should be handed in as much time before react as is possible
+3. 
+
