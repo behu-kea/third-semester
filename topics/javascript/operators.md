@@ -8,6 +8,8 @@ https://www.youtube.com/watch?v=Opl-KwCBxRg
 
 https://www.youtube.com/watch?v=Opl-KwCBxRg
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Opl-KwCBxRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ```
 {embed YouTube video: 'https://www.youtube.com/embed/Opl-KwCBxRg'}
 ```
