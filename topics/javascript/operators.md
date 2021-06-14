@@ -6,12 +6,6 @@
 
 https://www.youtube.com/watch?v=Opl-KwCBxRg
 
-https://www.youtube.com/watch?v=Opl-KwCBxRg
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Opl-KwCBxRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 > Note the two different uses of the equals sign:
@@ -86,7 +80,9 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 [view in jsTutor](http://www.pythontutor.com/visualize.html#code=8 %2B 9 %2F%2F -> 17%2C adds two numbers together. 20 - 12 %2F%2F -> 8%2C subtracts the right number from the left. 3 * 4 %2F%2F -> 12%2C multiplies two numbers together. 10 %2F 5 %2F%2F -> 2%2C divides the left number by the right. 8 % 3 %2F%2F%2F -> 2%2C as three goes into 8 twice%2C leaving 2 left over. )
 
-<iframe src="https://www.youtube.com/embed/qjzgz7bEEXM" width="100%" height="400px"></iframe>
+
+
+https://www.youtube.com/embed/qjzgz7bEEXM
 
 More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#.25_.28Modulus.29)
 
@@ -94,7 +90,9 @@ More about [Arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/J
 
 ## [Logical operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=logical-operators)
 
-<iframe src="https://www.youtube.com/embed/RWms0XG75r4" width="100%" height="400px"></iframe>
+https://www.youtube.com/embed/RWms0XG75r4
+
+
 
 - AND `&&`
 - OR `||`
