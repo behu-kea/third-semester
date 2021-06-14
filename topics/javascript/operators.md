@@ -4,6 +4,8 @@
 
 ## Comparison operators
 
+https://www.youtube.com/embed/Opl-KwCBxRg
+
 ```
 {embed YouTube video: 'https://www.youtube.com/embed/Opl-KwCBxRg'}
 ```
