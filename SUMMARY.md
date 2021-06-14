@@ -14,7 +14,7 @@
     - [Scope](topics/javascript/scope.md)
     - [DOM](topics/javascript/dom.md)
     - [Array methods](topics/javascript/array-methods.md)
-    - [API's](topics/javascript/api\'s.md)
+    - [API's](topics/javascript/api's.md)
     - [Asynchronous programming](topics/javascript/async.md)
   - React
     - [Component model](topics/react/component-model.md)
