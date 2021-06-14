@@ -171,12 +171,6 @@ ReactDOM.render(<HelloWorld />, document.querySelector("#root"));
 
 
 
-
-
-
-
-
-
 There are 3 important parts in this code:
 
 1. First we import `React`. This is important because JSX is converted to `React.createElement` calls. If the `React` variable is undefined then this will fail.
@@ -216,7 +210,7 @@ We are also using some shorter syntax within the `HelloWorld` component. `<Greet
 
 Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are written using a `camel case` convention and always start with an uppercase letter? And "regular DOM" components (`div`, `span`) are always lowercase? This is a convention to let you know whether you  are using a "regular DOM component" or a component that you have  written. When you're making your own components, you should always start them with an uppercase letter.
 
-#### 
+
 
 ## Embedding JavaScript into JSX
 
@@ -231,8 +225,6 @@ function Greeting() {
   return <span>{greetingWord}</span>;
 }
 ```
-
-
 
 
 
@@ -298,8 +290,6 @@ function MentorsList() {
 }
 ```
 
-
-
 Here we are using `Array.map` to turn an array of strings into an array of components.
 
 
@@ -321,10 +311,6 @@ function MentorsList() {
   );
 }
 ```
-
-
-
-
 
 Here we have added a `key` prop to the `li` element. A documentation page explaining in more depth is in the further reading section but basically the `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which.
 
@@ -348,6 +334,8 @@ function HelloMentor() {
 }
 ```
 
+We also need to export our components if we want to use them in other files:
+
 ```jsx
 function Greeting() {
   return <span>Hello</span>;
@@ -356,17 +344,7 @@ function Greeting() {
 export default Greeting;
 ```
 
-
-
-We also need to export our components if we want to use them in other files:
-
-
-
 The convention is to name component files exactly the same as the component (including the capital letter).
-
-
-
-> Taken from https://syllabus.codeyourfuture.io/react/week-1/lesson
 
 
 
@@ -428,4 +406,10 @@ Or calculating new values
 ```
 
 
+
+>  Taken from https://syllabus.codeyourfuture.io/react/week-1/lesson
+
+
+
+## Exercises
 
