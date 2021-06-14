@@ -2,9 +2,13 @@
 
 
 
-## [Comparison operators](https://hackyourfuture.github.io/study/#/javascript/operators?id=comparison-operators)
+## Comparison operators
 
-<iframe src="https://www.youtube.com/embed/Opl-KwCBxRg" width="100%" height="400px"></iframe>
+```
+{embed YouTube video: 'https://www.youtube.com/embed/Opl-KwCBxRg'}
+```
+
+<!--<iframe src="https://www.youtube.com/embed/Opl-KwCBxRg" width="100%" height="400px"></iframe>-->
 
 > Note the two different uses of the equals sign:
 > A single equals sign (=) is used to assign a value to a variable.
