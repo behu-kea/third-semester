@@ -126,3 +126,8 @@
 
 
 
+## Considerations
+
+- Should i have homework fx every 2. Week?
+- What should the first js project be, should i even have it there?
+- Should it be fully flipped?
