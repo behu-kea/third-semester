@@ -19,6 +19,6 @@
   - React
     - [Component model](topics/react/component-model.md)
     - [Reacting to changes](topics/react/reacting-to-changes.md)
-    - [Data fetching](topics/react/data-fetching.md)
+    - [Forms and Data fetching](topics/react/forms-and-data-fetching.md)
     - [Building an application](topics/react/building-an-application.md)
 
