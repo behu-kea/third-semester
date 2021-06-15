@@ -79,7 +79,17 @@ What if there is more than one condition you want to handle in your  function? F
 
 
 
-## Exercise 1
+## Exercises
+
+
+
+### Exercise 1
+
+Investigate what a ternary operator is and how to use it. Write down 2 code examples of how to use a ternary operator. Why would you use ternary over if else?
+
+
+
+### Exercise 1.1
 
 Explain what these lines of code does
 
@@ -99,7 +109,7 @@ if (num > 20) {
 
 
 
-## Exercise 2
+### Exercise 2
 
 Create a small program that gives you a message depending on your mood! It should:
 
