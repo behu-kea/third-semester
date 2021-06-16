@@ -32,6 +32,9 @@ fetch(apiUrl)
     .then(response => response.json())
     .then(yesOrNoData => {
         console.log(yesOrNoData);
+    })
+    .catch((error) => {
+    		console.log(error);
     });
 ```
 
@@ -42,6 +45,9 @@ There are somethings going on here.
 - `.then(yesOrNoData => {
           console.log(yesOrNoData);
       });` - Will log the data received from the API to the console
+- `.catch((error) => {
+          console.log(error);
+          });` -  The function insde the `catch` will be run if an error occurs, fx the network disappears. 
 
 The `.then` is a new concept that you will learn in the next class. Basically callling the `fetch` method returns a `Promise`. But for now just focus on how to use `fetch` to get data from an API. 
 
@@ -56,6 +62,9 @@ const apiUrl = 'https://my-json-server.typicode.com/typicode/demo/posts';
 fetch(apiUrl, {
 	method: 'POST',
   body: JSON.stringify( { id: 42, title, "Test title" }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
 	})
     .then(response => response.json())
     .then(dataReturnedFromPosting => {
@@ -65,6 +74,7 @@ fetch(apiUrl, {
 
 1. `method: 'POST',` - Telling the `fetch` method that the request we will be making should be a `POST` request
 2. `body: JSON.stringify( { id: 42, title, "Test title" }),` - Here we specify the method by taking the data we need to `POST` and encoding it into JSON. 
+3. `headers: ...` - This will tell the API that we expect the type of the content to be JSON
 
 
 

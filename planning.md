@@ -127,6 +127,8 @@
 - What should the first js project be? 
 - Should the class be fully flipped?
 - Should i use webpack or not: Maybe this: https://github.com/LaksForks/vanilla-js-boilerplate. Yes i should use web pack
+- Write some boilerplate code for the authorization part. Maybe just use Tomas Pesek's (https://github.com/pesekt1/SWC3-React-Frontend/tree/3ee22db77f1399411e58fc34da5f6905b2839df5/src/services). Maybe also other parts of the project
+- 
 
 
 

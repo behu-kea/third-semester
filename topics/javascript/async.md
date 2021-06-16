@@ -94,3 +94,7 @@ This might be a bit mind bending, but is supposed to help with realizing that fu
 
 Remember last class when we were working with `fetch`. 
 
+
+
+Remember errors!
+
