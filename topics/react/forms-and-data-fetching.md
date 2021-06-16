@@ -169,7 +169,7 @@ function FetchPostComponent() {
     return (
       <div>
           <form onSubmit={handleSubmit}>
-        		<label htmlFor="title">Write your title</label>
+            <label htmlFor="title">Write your title</label>
             <input id="title" type="text" name="title" />
             <button>Create new post</button>
         </form>
