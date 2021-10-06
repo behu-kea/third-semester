@@ -14,11 +14,13 @@ This introduction should prepare you for the shift
 
 ## Functional programming language
 
-Javascript is a functional language. That means that 
+Javascript is a functional language. That means that code and structure in js is built up using functions. In Java Classes are used to build structure, but in js that is mainly functions. 
 
 
 
+## Dynamically typed
 
+Javascript is dynamically typed. This means that you dont need to define the type you are working with js tries to figure that out 😱
 
 
 
