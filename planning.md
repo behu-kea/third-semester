@@ -6,6 +6,95 @@
 
 
 
+
+
+**From Java to javascript** - week 42
+
+The new stuff
+
+- How to run javascript in browser
+- Functional programming
+- Variables
+  - Const
+  - Let
+- Types
+  - Number
+  - Only array that works like ArrayList!
+- Typeof
+- Functions (in Javascript it is just a variable)
+  - Arrow functions
+- Objects (`HashMap`)
+- Debugging
+
+
+
+All basics they already know:
+
+- Expressions
+- Variables
+- Operators
+- Conditionals
+  - If
+  - Switch
+- For loop
+- Scope
+
+
+
+**Array methods** - week 43
+
+- Filter
+- Map
+- Sort
+
+
+
+**DOM** - week 43
+
+- Getting elements
+- Inserting elements
+- Click eventlistener
+
+
+
+**API's** - week 44
+
+- Get request
+- Fetch
+  - Ajax
+
+
+
+**Async programming** - week 44
+
+- SetTimeout/setInterval - Practical
+
+- Function continued
+  - Callback
+  - Function can be passed around
+- Promise usage and understanding no creation of promises!
+
+
+
+**Frontend project** - week 44 + 45
+
+- Communication with REST api
+- Application structure
+
+
+
+**Fullstack web application** - week 47
+
+- Using `fetch`to get data from backend
+- Where to host frontend
+- `CORS`
+
+---
+
+
+
+
+
 **Basics** 2 uger - teoretisk
 
 - Variables

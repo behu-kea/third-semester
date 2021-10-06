@@ -26,6 +26,8 @@ This technology of getting data from a server is called **AJAX**
 
 Lets's get some data from an API using `fetch` 👇
 
+`fetch` is the Javascript version of Postman!! Literally!
+
 ```jade
 const apiUrl = 'https://yesno.wtf/api/';
 fetch(apiUrl)
