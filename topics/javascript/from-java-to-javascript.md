@@ -18,27 +18,192 @@ Javascript is a functional language. That means that code and structure in js is
 
 
 
+## Printing variables
+
+In js we don't print variable to the terminal but log things to the console:
+
+instead of this 👇
+
+```java
+System.out.println("hello world");
+```
+
+We write this 👇
+
+```js
+console.log("hello world");
+```
+
+
+
 ## Dynamically typed
 
 Javascript is dynamically typed. This means that you dont need to define the type you are working with js tries to figure that out 😱
 
 
 
-- Functional programming language
-- Dynamically typed - there are types, but you dont need to specify them!
-  - Const, let
-  - number
-  - string
-  - boolean
-  - undefined
-  - null
-  - Typeof
-- Equality operator! ===
+### `const` vs `let`
+
+In js we define a variable as either a `const` or `let`. `const` means a variable is a constant and cannot be changed. `let` means we can change the variable
+
+```js
+const username = "bytbytdyt";
+username = "test"; // js throws an error!
+
+let username2 = "bytbytdyt";
+username2 = "test";
+console.log(username2); // test
+```
+
+A good rule of thumb is: 
+
+> Always declare a variable as a let. When you then need/if you to change the variable change it to let!
+>
+> Use `const` until it won't `let` you!
+
+
+
+### Dynamically typed examples
+
+```js
+const isUserLoggedIn = true;
+console.log(typeof isUserLoggedIn); // boolean
+
+const username = "bytbytdyt";
+console.log(typeof username); // string
+
+const age = 10;
+console.log(typeof age); // number
+```
+
+Use `typeof` to figure out the type of your variable! Works for primitive types
+
+
+
+There are two types you have not heard about before:
+
+- `undefined` - the variable has been declared but not assigned
+
+  ```js
+  const username;
+  console.log(typeof username); // undefined
+  ```
+
+- `null` - Is a assignment value. It represent a variable that has no value
+
+  ```
+  const username = null;
+  console.log(typeof username); // object
+  ```
+
+  It shows `object` because of a technicality in js. 
+
+
+
+## Equality operator
+
+Because there are no types, testing if things are equal to each toher is a bit different. 
+
+ 
+
+### `==`
+
+Using `==` tests f the value is equal to each other. Not if the type is the same!
+
+```js
+console.log(1 == 1); // true
+console.log(1 == '1'); // true
+```
+
+
+
+### `===`
+
+Using `===` tests f the value **and** the type is equal to each other. 
+
+```js
+console.log(1 === 1); // true
+console.log(1 === '1'); // false
+```
+
+
+
+## Array is like ArrayList
+
+Array in js is like a combination of `Array` and `ArrayList`
+
+
+
+Instead of this 👇
+
+```java
+ArrayList<String> usernames = new ArrayList<>();
+usernames.add("peteTheBeat");
+usernames.add("mariannner");
+
+usernames.push("typppi");
+System.out.println(usernames) // "peteTheBeat", "mariannner", "typppi"
+System.out.println(usernames.get(1)); // mariannner
+usernames.set(0, "rettty");
+System.out.println(usernames) // "rettty", "mariannner", "typppi"
+```
+
+We write this 👇
+
+```js
+const usernames = ["peteTheBeat", "mariannner"];
+usernames.push("typppi");
+console.log(usernames) // "peteTheBeat", "mariannner", "typppi"
+console.log(usernames[1]); // mariannner
+usernames[0] = "rettty";
+console.log(usernames) // "rettty", "mariannner", "typppi"
+```
+
+
+
+There are other array methods:
+
+- `push` - adds an element to the end of the array
+- `pop` - remove the element at the end of the array
+- `shift` - adds an element at the start of the array
+- `unshift` - remove the element at the start of the array
+
+
+
+## HashMap is called object
+
+HashMap in js is called an object. The concept is the same, the only difference is that the key can only be strings. Beause js i dynamically typed we dont need to specify the type of the key or the type of the value. We just save values at a specific key
+
+```js
+// defining an object
+const usernameAges = {
+	'peteTheBeat': 23,
+	'mariannner': 29
+}
+
+
+// setting a value at a specific key
+usernameAges['typppi'] = 31;
+console.log(usernameAges); // {'peteTheBeat': 23, 'mariannner': 29, 'typppi: 31'}
+usernameAges['peteTheBeat'] = 99;
+console.log(usernameAges); // {'peteTheBeat': 99, 'mariannner': 29, 'typppi: 31'}
+
+// getting a value at a specific key
+console.log(usernameAges['mariannner']); // 29
+
+// because js we can store different types (but probably shouldnt)
+const usernameAgesMixedTypes = {
+	'peteTheBeat': '23',
+	'mariannner': 29,
+  'typppi': [1,2,3],
+}
+```
+
+
+
+
+
 - Not compiled
-- ArrayList is just array. No sets, trees
-  - accesses with []
-- HashMap is now called dictionary (and its a fuck ton easier to work with)
-  - accessed with .keyname og ['keyname']
 - Js has this but its tricky!
 - No enum
 - Supports classes and inheritance but please avoid it. Use objects instead
