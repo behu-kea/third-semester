@@ -170,9 +170,30 @@ There are other array methods:
 
 
 
-## HashMap is called object
+## HashMap is called an object
 
 HashMap in js is called an object. The concept is the same, the only difference is that the key can only be strings. Beause js i dynamically typed we dont need to specify the type of the key or the type of the value. We just save values at a specific key
+
+
+
+Instead of this 👇
+
+```java
+HashMap<String, Integer> usernameAges = new HashMap<String, Integer>();
+usernameAges.put("peteTheBeat", 23);
+usernameAges.put("mariannner", 29);
+
+// setting a value at a specific key
+usernameAges.put("typppi", 31);
+System.out.println(usernameAges);
+usernameAges.put("peteTheBeat", 99);
+System.out.println(usernameAges);
+
+// getting a value at a specific key
+System.out.println(usernameAges.get("mariannner"));
+```
+
+We do this 👇
 
 ```js
 // defining an object
@@ -180,7 +201,6 @@ const usernameAges = {
 	'peteTheBeat': 23,
 	'mariannner': 29
 }
-
 
 // setting a value at a specific key
 usernameAges['typppi'] = 31;
@@ -201,12 +221,42 @@ const usernameAgesMixedTypes = {
 
 
 
+## Methods vs function
+
+In javascript we differentiate between methods and functions. 
+
+A functions is a freestanding function not connected to any object, eg 👇
+
+```js
+function addNumbers(a, b) {
+	return a + b;
+}
+
+const numbersAdded = addNumbers(1,3);
+console.log(numbersAdded); // 4
+```
+
+A method is a function that is connected to an object 👇
+
+```
+const userObject = {
+	'name': 'benjamin',
+	'age': 32,
+	'print': function() {
+		console.log("hello everyone!");
+	}
+}
+```
 
 
-- Not compiled
-- Js has this but its tricky!
-- No enum
+
+
+
+## More differences
+
+- Js is not compiled before being run. The code is just run
 - Supports classes and inheritance but please avoid it. Use objects instead
+- No enum (but we can simulate it)
+
 - Functions are just variables
-- Prints done with console.log()
 
