@@ -236,16 +236,43 @@ const numbersAdded = addNumbers(1,3);
 console.log(numbersAdded); // 4
 ```
 
-A method is a function that is connected to an object 👇
+A function can be both defined as a function like above or as a seperate variable 👇
 
-```
-const userObject = {
-	'name': 'benjamin',
-	'age': 32,
-	'print': function() {
-		console.log("hello everyone!");
-	}
+```js
+const addNumbers = function(a,b) {
+	return a + b;
 }
+const numbersAdded = addNumbers(1,3);
+console.log(numbersAdded); // 4
+```
+
+
+
+Here is one weird thing that might blow your mind 🤯 
+
+> In Javascript a function works just like any other variable!
+
+This means that we can do these things👇
+
+```js
+const functionArray = [function() {
+	console.log("hello");
+}, function() {
+	console.log("worls");
+}];
+
+const functionOne = functionArray[0];
+const functionTwo = functionArray[1];
+functionOne(); // hello
+functionTwo(); // world
+
+function callAnotherFunction(anotherFunction) {
+  anotherFunction(); 
+}
+
+callAnotherFunction(function() {
+  console.log("called from another function");
+});
 ```
 
 
@@ -256,7 +283,6 @@ const userObject = {
 
 - Js is not compiled before being run. The code is just run
 - Supports classes and inheritance but please avoid it. Use objects instead
-- No enum (but we can simulate it)
+- No enum (but we can simulate it using an object)
 
-- Functions are just variables
 
