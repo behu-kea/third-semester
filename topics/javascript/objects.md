@@ -115,7 +115,6 @@ let laptop = {
   isTouchscreen: true,
 };
 
-
 // DON'T DO THIS*
 laptop.screenSize = "15 inch";
 
