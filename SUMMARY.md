@@ -1,6 +1,7 @@
 # Teacher Curriculum
 
 - [Studieordningen](./studieordning-programmering-2.md)
+
 - Topics
   - [Getting started](topics/javascript/getting-started.md)
   - [Variables](topics/javascript/variables.md)
@@ -15,8 +16,39 @@
   - [Array methods](topics/javascript/array-methods.md)
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
+
 - Lessons
+
   - Week 43
     -  [Tuesday](lessons/week-43/tuesday.md)
     -  [Thursday](lessons/week-43/thursday.md)
 
+  - Week 44
+    -  [Tuesday](lessons/week-44/tuesday.md)
+    -  [Thursday](lessons/week-44/thursday.md)
+  - Week 45
+    -  [Tuesday](lessons/week-45/tuesday.md)
+    -  [Thursday](lessons/week-45/thursday.md)
+  - Week 46
+    -  [Tuesday](lessons/week-46/tuesday.md)
+    -  [Thursday](lessons/week-46/thursday.md)
+  - Week 47
+    -  [Tuesday](lessons/week-47/tuesday.md)
+    -  [Thursday](lessons/week-47/thursday.md)
+  - Week 48
+    -  [Tuesday](lessons/week-48/tuesday.md)
+    -  [Thursday](lessons/week-48/thursday.md)
+  - Week 49
+    -  [Tuesday](lessons/week-49/tuesday.md)
+    -  [Thursday](lessons/week-49/thursday.md)
+  - Week 50
+    -  [Tuesday](lessons/week-50/tuesday.md)
+    -  [Thursday](lessons/week-50/thursday.md)
+  - Week 51
+    -  [Tuesday](lessons/week-51/tuesday.md)
+    -  [Thursday](lessons/week-51/thursday.md)
+  - Week 52
+    -  [Tuesday](lessons/week-52/tuesday.md)
+    -  [Thursday](lessons/week-52/thursday.md)
+
+  
