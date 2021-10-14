@@ -51,4 +51,8 @@
     -  [Tuesday](lessons/week-52/tuesday.md)
     -  [Thursday](lessons/week-52/thursday.md)
 
+- Projects
+
+  -  [Frontend project](projects/frontend-project.md)
+
   
