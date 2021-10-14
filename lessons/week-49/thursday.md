@@ -1,0 +1,3 @@
+# Thursday
+
+- Fullstack application
