@@ -1,7 +1,5 @@
 # Thursday
 
-- I will teach [getting started with js](../../topics/javascript/getting-started-no-webpack.md) 
-- I will teach [from java to javascript.md](../../topics/javascript/from-java-to-javascript.md)
 - For exercises, go through the different topics below and solve the exercises in the bottom
   - [Variables](../../topics/javascript/variables.md)
   - [Types](../../topics/javascript/types-string-number-boolean-array.md)
@@ -46,8 +44,3 @@ To solve this exercise you must know
 - How to use string in js
 - How to use an array
 - How to use an object
-
-
-
-## Peer instruction
-
