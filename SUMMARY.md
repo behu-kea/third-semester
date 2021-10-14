@@ -15,4 +15,8 @@
   - [Array methods](topics/javascript/array-methods.md)
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
+- Lessons
+  - Week 43
+    -  [Tuesday](lessons/week-43/tuesday.md)
+    -  [Thursday](lessons/week-43/thursday.md)
 
