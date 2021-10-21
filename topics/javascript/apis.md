@@ -6,6 +6,12 @@ In Javascript we need to do the **exact** same! There are different tools for fe
 
 
 
+Support video about json: https://youtu.be/ghMR-k5pKjg
+
+Support video about fetch: https://youtu.be/pL_zEzunBKU
+
+
+
 ## Public API's
 
 There are lots of API's online. It might be a new concept for you to work with these API's but they work exactly like the API you have created in the backend module. Here is a list of some fun/cool/quirky API's

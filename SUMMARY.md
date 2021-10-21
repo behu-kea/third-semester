@@ -3,6 +3,7 @@
 - [Studieordningen](./studieordning-programmering-2.md)
 
 - Topics
+  - [Before starting in class](topics/javascript/before-starting-class.md)
   - [Getting started](topics/javascript/getting-started.md)
   - [Variables](topics/javascript/variables.md)
   - [Types](topics/javascript/types-string-number-boolean-array.md)
@@ -16,7 +17,7 @@
   - [Array methods](topics/javascript/array-methods.md)
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
-
+  
 - Lessons
 
   - Week 43
