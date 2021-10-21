@@ -229,7 +229,7 @@ A functions is a freestanding function not connected to any object, eg 👇
 
 ```js
 function addNumbers(a, b) {
-	return a + b;
+  return a + b;
 }
 
 const numbersAdded = addNumbers(1,3);
@@ -240,7 +240,7 @@ A function can be both defined as a function like above or as a seperate variabl
 
 ```js
 const addNumbers = function(a,b) {
-	return a + b;
+  return a + b;
 }
 const numbersAdded = addNumbers(1,3);
 console.log(numbersAdded); // 4
@@ -256,9 +256,9 @@ This means that we can do these things👇
 
 ```js
 const functionArray = [function() {
-	console.log("hello");
+  console.log("hello");
 }, function() {
-	console.log("worls");
+  console.log("worls");
 }];
 
 const functionOne = functionArray[0];
@@ -277,12 +277,9 @@ callAnotherFunction(function() {
 
 
 
-
-
 ## More differences
 
 - Js is not compiled before being run. The code is just run
 - Supports classes and inheritance but please avoid it. Use objects instead
 - No enum (but we can simulate it using an object)
-
 

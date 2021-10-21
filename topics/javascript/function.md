@@ -1,5 +1,9 @@
 # Function
 
+Support video arrow function: https://youtu.be/DFyfbJk4sZw
+
+
+
 Functions are blocks of code that can do a task as many times as you ask them to. They take an input and return an output.
 
 Here's a function that doubles a number:

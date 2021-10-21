@@ -1,8 +1,12 @@
 # Async
 
-Support video: https://youtu.be/RTrua6CRNEM
+Support video async js: https://youtu.be/RTrua6CRNEM
 
 Support video callbacks: https://youtu.be/hjgunSqSPaA
+
+Support video using promises: https://youtu.be/G4YSi6VA2gw
+
+Support video using async await: https://youtu.be/6Hq6AywZ7FY
 
 
 
