@@ -27,7 +27,9 @@ In this folder you will have two files
 </html>
 ```
 
-The important part of this html file is the `<script src="main.js"></script>`. This will load the `main.js` Javascript file and run it in the browser. So to run the Javascript file, simply open the `index.html` in your browser of choice. 
+The important part of this html file is the `<script src="main.js"></script>`. This will load the `main.js` Javascript file and run it in the browser. So to run the Javascript file, simply right click the `index.html` and select `Open with Live Server`. This will run the html file through a server. The smart thing about that is that when you make changes to either the js or the html the server will automatically reload the server, showing the newest changes
+
+![Open live server](../../assets/open-live-server.png)
 
 
 
@@ -45,7 +47,7 @@ This will `log` the text `Hello world` to the `console`.
 
 
 
-![Finding the console](../../assets/console-log.png)
+![Finding the console](../../assets/finding-the-console.png)
 
 
 
