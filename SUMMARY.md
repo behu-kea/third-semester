@@ -5,6 +5,7 @@
 - Topics
   - [Before starting in class](topics/javascript/before-starting-class.md)
   - [Getting started](topics/javascript/getting-started-no-webpack.md)
+  - [From java to js](topics/javascript/from-java-to-javascript.md)
   - [Variables](topics/javascript/variables.md)
   - [Types](topics/javascript/types-string-number-boolean-array.md)
   - [Operators](topics/javascript/operators.md)
