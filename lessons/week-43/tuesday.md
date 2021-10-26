@@ -1,6 +1,6 @@
 # Tuesday
 
-- I will teach [getting started with js](../../topics/javascript/getting-started-no-webpack.md) 
+- I will teach [getting started with js](../../topics/javascript/getting-started-no-webpack.md)
 - I will teach [from java to javascript.md](../../topics/javascript/from-java-to-javascript.md)
 - For exercises, go through the different topics below and solve the exercises in the bottom
   - [Variables](../../topics/javascript/variables.md)
