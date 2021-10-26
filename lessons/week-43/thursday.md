@@ -234,3 +234,7 @@ Try and make the game playable! *optional*
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 And finally, feel free to fill out the form to help us improve the module and the exercises. The [survey](https://forms.gle/irckYkBdvSb6Tdz57) here is addressed to the teacher and teacher assistant, while this [survey](https://forms.gle/ttdDLcSJ88ksz6xe7) is for homework helpers.
+
+
+
+*Exerises taken from https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week4/lesson-plan.md*
