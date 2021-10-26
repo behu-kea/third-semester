@@ -8,7 +8,7 @@ Support video: https://youtu.be/wBKv2EX2hw8 and https://youtu.be/w4FNF8FLjQU
 
 Imagine you have an array of names...
 
-```js
+```javascript
 const mentors = ["Daniel ", "irina ", " Gordon", "ashleigh "];
 ```
 
@@ -18,7 +18,7 @@ You notice that the names are not formatted consistently. To fix the array  you 
 
 We can write a function that changes one name:
 
-```js
+```javascript
 function tidy(name) {
   return name.trim().toLowerCase();
 }
@@ -36,7 +36,7 @@ All you need to run every name in the array through this function and  update th
 
 Have a look at this other example:
 
-```js
+```javascript
 function double(number) {
   return number * 2;
 }
