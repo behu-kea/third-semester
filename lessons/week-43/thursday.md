@@ -47,8 +47,6 @@ To solve this exercise you must know
 
 
 
-
-
 ### Fibonacci Sequence
 Given a specific number in the fibonacci sequence return the fibonachi number. 
 
