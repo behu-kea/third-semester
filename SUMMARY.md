@@ -14,8 +14,10 @@
   - [Loops](topics/javascript/loops.md)
   - [Function](topics/javascript/function.md)
   - [Scope](topics/javascript/scope.md)
-  - [DOM](topics/javascript/dom.md)
+  - [Callback function](topics/javascript/callback-function.md) 
+  - [Arrow function](topics/javascript/arrow-function.md) 
   - [Array methods](topics/javascript/array-methods.md)
+  - [DOM](topics/javascript/dom.md)
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
   
