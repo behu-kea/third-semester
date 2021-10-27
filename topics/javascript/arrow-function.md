@@ -46,8 +46,3 @@ Now `a + b` is automatically returned. That is called implicit return!
 const numberLogger = (a, b) => console.log(a, b);
 numberLogger(1,2); // 1 2
 ```
-
-
-
-
-
