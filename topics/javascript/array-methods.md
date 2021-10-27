@@ -4,72 +4,9 @@ Support video: https://youtu.be/wBKv2EX2hw8 and https://youtu.be/w4FNF8FLjQU
 
 
 
-## Array map
+## `forEach`
 
-Imagine you have an array of names...
-
-```javascript
-const mentors = ["Daniel ", "irina ", " Gordon", "ashleigh "];
-```
-
-
-
-You notice that the names are not formatted consistently. To fix the array  you decide you need to trim whitespace and convert to lowercase. How do  you do that for every value in the array?
-
-We can write a function that changes one name:
-
-```javascript
-function tidy(name) {
-  return name.trim().toLowerCase();
-}
-```
-
-
-
-All you need to run every name in the array through this function and  update the array values. Thankfully there is an array method that does  just this!
-
-
-
-### `.map()`
-
-*Runs every item in the array through a function and returns a new array with the values returned by the function*.
-
-Have a look at this other example:
-
-```javascript
-function double(number) {
-  return number * 2;
-}
-
-const numbers = [1, 2, 3];
-const numbersDoubled = numbers.map(double);
-```
-
-
-
-The `map()` method runs the function we provided (`double`) on each item in the array and uses the return values to create a new array. In the example `numbersDoubled` is a new array containing `[2, 4, 6]`.
-
-
-
-## Array forEach
-
-The `.forEach()` method is similar to `.map()` except it does not return a new array. Therefore `.forEach()` is only useful if you want to perform *side effects*.
-
-
-
-### Side effects
-
-Generally, functions should take an input and return an output (based on that input), and not do anything else.
-
-When functions meet this criteria they can be called *pure functions*.
-
-A pure function does not:
-
-- access any data unless it was passed in as a parameter
-- change data declared outside the function
-- interacts with anything outside of the function (e.g. logs a message to the  console, shows a message on a website, saves data to disk)
-
-These are all example of *side effects*. Of course, from time to time, we will need to perform side effects, but we should try to avoid side effects inside of functions and only have  them when absolutely necessary.
+`forEach` is used to iterate through each of the elements in an array.  Calling `forEach` does not return anything!
 
 
 
@@ -95,9 +32,8 @@ names.forEach(function (name, index) {
 
 ### Exercise (10 minutes)
 
-- Create a function that takes a `birthYear`, and returns the age of someone
-- You are given an array with year that 7 people were born, `[1964, 2008, 1999, 2005, 1978, 1985, 1919]`. Take this array and create another array containing their ages.
-- `console.log` the birth years array
+- Create a function that takes a `birthYear`, and log out the age of someone
+- You are given an array with year that 7 people were born, `[1964, 2008, 1999, 2005, 1978, 1985, 1919]`. Take this array and log out the individual ages of the people
 
 
 
@@ -107,7 +43,56 @@ You can drive in the UK at the age of 17.
 
 - Write another function that takes a birth year and returns a string `Born in {year} can drive` or `Born in {year} can drive in {x} years`
 - Use the array of birth years, `[ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ]`, to get an array of strings saying if these people can drive
-- `console.log` the answers
+- `console.log` the answers for each birth year
+
+
+
+## `map`
+
+The `map` method is used for transforming/changing/mapping the an array! Use it when you have to change the structure of your array
+
+
+
+Imagine you have the following array of names
+
+```javascript
+const mentors = ["Daniel ", "irina ", " Gordon", "ashleigh "];
+```
+
+
+
+You notice that the names are not formatted consistently. To fix the array you decide you need to trim whitespace and convert to lowercase. How do  you do that for every value in the array?
+
+We can write a function that changes one name:
+
+```javascript
+function tidy(name) {
+  return name.trim().toLowerCase();
+}
+```
+
+All you need to run every name in the array through this function and update the array values. Thankfully there is an array method that does just this!
+
+
+
+### `.map()`
+
+*Runs every item in the array through a function and returns a new array with the values returned by the function*.
+
+Have a look at this other example:
+
+```javascript
+function double(number) {
+  return number * 2;
+}
+
+const numbers = [1, 2, 3];
+const numbersDoubled = numbers.map(double);
+```
+
+
+
+The `map()` method runs the function we provided (`double`) on each item in the array and uses the return values to create a new array. In the example `numbersDoubled` is a new array containing `[2, 4, 6]`.
 
 
 
