@@ -30,7 +30,7 @@ System.out.println("hello world");
 
 We write this 👇
 
-```js
+```javascript
 console.log("hello world");
 ```
 
@@ -46,7 +46,7 @@ Javascript is dynamically typed. This means that you dont need to define the typ
 
 In js we define a variable as either a `const` or `let`. `const` means a variable is a constant and cannot be changed. `let` means we can change the variable
 
-```js
+```javascript
 const username = "bytbytdyt";
 username = "test"; // js throws an error!
 
@@ -65,7 +65,7 @@ A good rule of thumb is:
 
 ### Dynamically typed examples
 
-```js
+```javascript
 const isUserLoggedIn = true;
 console.log(typeof isUserLoggedIn); // boolean
 
@@ -84,14 +84,14 @@ There are two types you have not heard about before:
 
 - `undefined` - the variable has been declared but not assigned
 
-  ```js
+  ```javascript
   const username;
   console.log(typeof username); // undefined
   ```
 
 - `null` - Is a assignment value. It represent a variable that has no value
 
-  ```
+  ```javascript
   const username = null;
   console.log(typeof username); // object
   ```
@@ -110,7 +110,7 @@ Because there are no types, testing if things are equal to each toher is a bit d
 
 Using `==` tests f the value is equal to each other. Not if the type is the same!
 
-```js
+```javascript
 console.log(1 == 1); // true
 console.log(1 == '1'); // true
 ```
@@ -121,7 +121,7 @@ console.log(1 == '1'); // true
 
 Using `===` tests f the value **and** the type is equal to each other. 
 
-```js
+```javascript
 console.log(1 === 1); // true
 console.log(1 === '1'); // false
 ```
@@ -150,7 +150,7 @@ System.out.println(usernames) // "rettty", "mariannner", "typppi"
 
 We write this 👇
 
-```js
+```javascript
 const usernames = ["peteTheBeat", "mariannner"];
 usernames.push("typppi");
 console.log(usernames) // "peteTheBeat", "mariannner", "typppi"
@@ -195,7 +195,7 @@ System.out.println(usernameAges.get("mariannner"));
 
 We do this 👇
 
-```js
+```javascript
 // defining an object
 const usernameAges = {
 	'peteTheBeat': 23,
@@ -227,7 +227,7 @@ In javascript we differentiate between methods and functions.
 
 A functions is a freestanding function not connected to any object, eg 👇
 
-```js
+```javascript
 function addNumbers(a, b) {
   return a + b;
 }
@@ -238,7 +238,7 @@ console.log(numbersAdded); // 4
 
 A function can be both defined as a function like above or as a seperate variable 👇
 
-```js
+```javascript
 const addNumbers = function(a,b) {
   return a + b;
 }
@@ -254,7 +254,7 @@ Here is one weird thing that might blow your mind 🤯
 
 This means that we can do these things👇
 
-```js
+```javascript
 const functionArray = [function() {
   console.log("hello");
 }, function() {

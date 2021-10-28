@@ -38,7 +38,7 @@ setTimeout(function() {
 
 The `setInterval` will works nearly like the `setTimeout` function it just keeps calling the callback function for every milliseconds you specify
 
-```js
+```javascript
 setinterval(function() {
 	console.log("This is logged every 3 seconds");
 }, 3000);
@@ -99,7 +99,7 @@ I was working at a dating website. I had to write the functionality for being ab
 
 
 
-```js
+```javascript
 // calling the swipeCard method will return a promise
 const swipePromise = swipeCard();
 swipePromise
@@ -120,7 +120,7 @@ So we call a method called `swipeCard`. This method will start the animation of 
 
 Let's take another example you have been working with:
 
-````js
+````javascript
 fetch('some-url')
 	.then((response) => response.json())
 	.catch((error) => console.log(error));
@@ -141,7 +141,7 @@ Calling the `fetch` function will make a request to a server and then return a `
 
 But the examples with `fetch` you have worked with are a bit different, they look like this 👇
 
-```js
+```javascript
 fetch('some-url')
 	.then((response) => response.json())
 	.then((data) => console.log(data))
@@ -150,7 +150,7 @@ fetch('some-url')
 
 How can this be done? Every call to `.then`will return a new promise! We can let's make that a bit more clear:
 
-```js
+```javascript
 const firstPromise = fetch('some-url');
 const secondpromise = firstPromise.then((response) => response.json());
 const thirdpromise = secondpromise.then((data) => console.log(data));
@@ -193,4 +193,6 @@ Fetch movies using this [api](https://gist.githubusercontent.com/pankaj28843/08f
 2. Render the movies to the DOM
 3. Create a checkbox. When the checkbox is checked, show new movies when the checkbox is not checked show old movies
 4. Create search functionality so i as a user can search for a movie name and see the movies that match what i wa searching for
+
+*Exercises inspired and taken from https://github.com/HackYourFuture-CPH/JavaScript*
 

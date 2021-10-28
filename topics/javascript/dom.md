@@ -43,7 +43,7 @@ Here are two examples, HTML and then JavaScript, of how the DOM might look like:
 
 
 
-```js
+```javascript
 let document = {
   body: {
     h1: "Welcome",
@@ -64,7 +64,7 @@ This is how we would represent the document hierarchy above as a tree of nodes:
 
 The DOM offers a lot of useful functions we can use to find elements on the page. Here are some we'll be using today:
 
-```js
+```javascript
 document.querySelector("#mainHeader");
 
 document.querySelectorAll("p");
@@ -81,6 +81,8 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. 
 ##### Exercise
 
 Let's work on the code provided here: https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
+
+That means you have to clone this repo onto your computer: https://github.com/CodeYourFuture/js-exercises and then find the A-dom-manipulation folder to open in VS code
 
 1. Open "A-dom-manipulation" project in VS code
 
@@ -114,7 +116,7 @@ Write JavaScript below that logs:
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
 
-```js
+```javascript
 let myButton = document.querySelector("#myButton");
 myButton.addEventListener("click", alertSomething);
 
@@ -135,7 +137,7 @@ When a user clicks the "ALERT" button, an alert box should pop up with the text 
 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
 
-```js
+```javascript
 let myElement = document.querySelector("#myElement");
 
 myElement.style.backgroundColor = "red";
@@ -153,7 +155,7 @@ Write JavaScript below that changes the background colour of the page when the "
 
 Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
 
-````js
+````javascript
 let paragraph = document.createElement("p"); // here we're just creating it, element is not visible yet
 
 myElement.appendChild(paragraph); // now the element is added to our view, but it's empty
@@ -175,7 +177,7 @@ When a user clicks the "Add some text" button, a new paragraph should be added b
 
 You can then change the text displayed inside elements using the `innerText` property:
 
-```js
+```javascript
 paragraph.innerText = "How are you?"; // now we can see the text displaying on the screen
 ```
 
@@ -183,7 +185,7 @@ paragraph.innerText = "How are you?"; // now we can see the text displaying on t
 
 We've been using `document.querySelector` to retrieve a single element. To retrieve a list of multiple elements (that match a specific class name for example, or a specific tag) we use `document.querySelectorAll`.
 
-```js
+```javascript
 //change the background of all the paragraph items on our page
 let paragraphs = document.querySelectorAll("p");
 for (let i = 0; i < paragraphs.length; i++) {
@@ -197,7 +199,7 @@ We've learned that `style` and `innerText` are properties of DOM elements. Image
 
 While it's really easy to change styles directly on elements using the `style` property, it is not usually a good idea to mix JavaScript and CSS (see  separation of concerns in the first lesson). To solve this, we can use  the `className` property to set the class for an element instead of changing its styles directly:
 
-```js
+```javascript
 //before: <div id="myContainer"></div>
 let container = document.querySelector("#myContainer");
 container.className = "largeBlock";
@@ -208,7 +210,7 @@ container.className = "largeBlock";
 
 To get the text from an Input field:
 
-```js
+```javascript
 let updateTitleBtn = document.querySelector("#updateTitleBtn");
 
 updateTitleBtn.addEventListener("click", function () {

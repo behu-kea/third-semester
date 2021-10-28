@@ -11,7 +11,7 @@ The most common type of conditional is the **if statement**.
 
 An if statement runs some code if a condition is met. If the condition is not met, then the code will be skipped.
 
-```js
+```javascript
 let isHappy = true;
 
 if (isHappy) {
@@ -25,7 +25,7 @@ if (isHappy) {
 
 The code in paratheses - e.g. `(isHappy)` - is the condition. The condition can be *any* expression. The following are all valid conditions:
 
-```js
+```javascript
 // boolean value
 
 if (true) {
@@ -63,7 +63,7 @@ An `if` statement runs code when a condition is met. What if the condition is  n
 
 An **if...else statement** also runs code when the condition is *not* met.
 
-```js
+```javascript
 let isHappy = true;
 
 if (isHappy) {
@@ -93,7 +93,7 @@ Investigate what a ternary operator is and how to use it. Write down 2 code exam
 
 Explain what these lines of code does
 
-```js
+```javascript
 const num = 23;
 
 if (num > 20) {

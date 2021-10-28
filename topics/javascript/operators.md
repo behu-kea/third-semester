@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=Opl-KwCBxRg
 
 How does this work in practice?
 
-```js
+```javascript
 1 == 1 // -> true
 7 == '7' // -> true
 1 != 2  // -> true
@@ -48,7 +48,7 @@ We strongly recommend that you always use the strict form when comparing for equ
 - Less than operator `<`
 - Less than or equal operator `<=`
 
-```js
+```javascript
 4 > 3   // -> true
 3 >= 3  // -> true
 13 < 12 // -> false
@@ -70,7 +70,7 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 - Remainder (sometimes called modulo) `%` 
   Returns the remainder left over after you've shared the left number  out into a number of integer portions equal to the right number.
 
-```js
+```javascript
 8 + 9 // -> 17, adds two numbers together.
 20 - 12 // -> 8, subtracts the right number from the left.
 3 * 4 // -> 12, multiplies two numbers together.
@@ -97,7 +97,7 @@ https://www.youtube.com/embed/RWms0XG75r4
 - AND `&&`
 - OR `||`
 
-```js
+```javascript
 true && false //-> false
 false && true //-> false
 false || true //-> true
@@ -108,7 +108,7 @@ true || false //-> true
 
 Given that x = 6 and y = 3
 
-```js
+```javascript
 x < 10 && y > 1 // -> true
 x === 5 || y === 5 // -> false
 x !== y // -> true
@@ -120,7 +120,7 @@ Logical NOT
 
 - NOT `!`
 
-```js
+```javascript
 true === !false
 false === !true
 ```
@@ -135,7 +135,7 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 
 To get the type of a value assigned to a variable, use the following code:
 
-```js
+```javascript
 let bar = 42; 
 typeof bar    //-> 'number' 
 typeof typeof bar; //->  'string'

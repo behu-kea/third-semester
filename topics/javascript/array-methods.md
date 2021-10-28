@@ -14,7 +14,7 @@ Support video: https://youtu.be/wBKv2EX2hw8 and https://youtu.be/w4FNF8FLjQU
 
 Say we want to log to the console a list of names.
 
-```js
+```javascript
 const names = ["Daniel", "mozafar", "irina"];
 ```
 
@@ -22,7 +22,7 @@ const names = ["Daniel", "mozafar", "irina"];
 
 We can use `.forEach()` to go through the array, item by item, and call a function we provide.
 
-```js
+```javascript
 names.forEach(function (name, index) {
   console.log(index + ": " + name);
 });
@@ -117,7 +117,7 @@ console.log(newTransformedArray); // [l, a, n, m]
 
 Imagine you have an array of trainees' test scores:
 
-```js
+```javascript
 const testScores = [90, 50, 100, 66, 25, 80, 81];
 ```
 
@@ -127,7 +127,7 @@ You want to show only the test scores that are higher than 80. How do you do tha
 
 We can write a function that checks if one score is greater than 80:
 
-```js
+```javascript
 function isHighScore(score) {
   return score > 80;
 }
@@ -143,7 +143,7 @@ To find out which scores were greater than 80, you'd have to run this  function 
 
 *Runs every item in the array through a condition that we set, and returns a new array with the values that match the condition*.
 
-```js
+```javascript
 const highTestScores = testScores.filter(isHighScore);
 console.log(highTestScores); // logs [90, 100, 81]
 
@@ -173,7 +173,7 @@ You can call `.forEach()` after `.map()` because `.map()` returns a new array.
 
 Consider this code:
 
-```js
+```javascript
 function formatName(name) {
   return name.split("")[0].toUpperCase() + name.slice(1);
 }
@@ -214,7 +214,7 @@ This code does not work because `forEach()` does not return a new array (it retu
 
 Use this function to generate random listings
 
-```js
+```javascript
 /**
  * Get random integer between two numbers, found here: https://stackoverflow.com/a/7228322
  * @param {integer} min - The min number
@@ -269,6 +269,10 @@ generateListings(20);
 
 
 
+**Use arrow functions for these exercises!**
+
+
+
 ### ForEach
 
 - Create 37 listings and log out every listings size
@@ -306,7 +310,7 @@ Imagine we have a website like https://danskebank.dk/bolig/sogning?sorter=hoejt-
 
 If a user fx click on a button indicating that the user only wants listings that are of the type farm. Lets try and  imagine how we would use a function to create this functionality:
 
-```js
+```javascript
 const listings = generateListings(20);
 
 const filter = {
@@ -318,7 +322,7 @@ const farmListings = filterListings(listings, filter);
 
 Okay, so the `filterListings` function takes a filter which is an `object`. Say the user wants farm listings that cost more than 1.500.000. 
 
-```js
+```javascript
 const filter2 = {
     type: 'farm',
     minPrize: 1500000,

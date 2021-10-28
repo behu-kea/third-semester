@@ -65,7 +65,7 @@ The `.then` is a new concept that you will learn in the next class. Basically ca
 
 To post data to an API there are two things you need to specify
 
-```js
+```javascript
 const apiUrl = 'https://my-json-server.typicode.com/typicode/demo/posts';
 fetch(apiUrl, {
 	method: 'POST',

@@ -6,7 +6,7 @@ Think of an object like a HashMap. It has a key and a value behind that key.
 
 This is how to create an object in Javascript
 
-```js
+```javascript
 const laptop = {
   brand: "Lenovo",
   screenSize: 13,
@@ -28,7 +28,7 @@ Create an object that describes you. Fx a key called `age` with the value of 28.
 
 The objects below have some syntax issues - try and fix them all!
 
-```js
+```javascript
 let kitten = {
     fur colour: "orange",
     age "23"
@@ -54,7 +54,7 @@ let phone = {
 
 Let's take one of the objects we looked at earlier.
 
-```js
+```javascript
 let laptop = {
   brand: "Lenovo",
   screenSize: 13,
@@ -68,13 +68,13 @@ let laptop = {
 
 To find out the value of an object's property, you can use the dot notation..
 
-```js
+```javascript
 console.log(laptop.brand);
 ```
 
 You can also use the bracket notation (although this is rarely used, it's good to know):
 
-```js
+```javascript
 console.log(laptop["brand"]);
 ```
 
@@ -82,7 +82,7 @@ console.log(laptop["brand"]);
 
 #### Exercise 3
 
-```js
+```javascript
 // Console.log the values of each property of "kitten"
 
 let kitten = {
@@ -102,13 +102,13 @@ let kitten = {
 
 Similar to reading, if we want to set a property:
 
-```js
+```javascript
 laptop.brand = "Apple";
 ```
 
 It's strongly recommended you always use the same **type** when re-assigning an object's property (if it was a string before, keep it a string - and so on).
 
-```js
+```javascript
 let laptop = {
   brand: "Lenovo",
   screenSize: 13,
@@ -128,7 +128,7 @@ laptop.screenSize = 15;
 
 Write code in the space provided so that the expected values output
 
-```js
+```javascript
 let dog = {
   name: "Billy",
   wantsToPlay: false,

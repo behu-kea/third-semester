@@ -24,8 +24,6 @@ for (let i = 0; i < 20; i++) {
 
 ### Exercise (10 minutes)
 
-##### 
-
 ##### Exercise
 
 Write a function, similar to the last exercise, that:

@@ -18,7 +18,7 @@ Local scope can be further divided into two categories: function and block. Let'
 
 A unique local scope gets created whenever a function is declared. The  variables declared within will only be accessible within that scope,  nowhere else. This makes it possible to declare variables within the  same name in each different local scope. This also means that it's not  possible to refer to a variable declared in one local scope, within  another local scope.
 
-```js
+```javascript
 function createLocalScope() {
   const localVariable = 'this variable can only be accessed within this function';
   console.log(localVariable);
@@ -39,7 +39,7 @@ createAnotherLocalScope();
 
 However, variables declared within the global scope can be accessed anywhere!  Actually, that's the very purpose of global scope. In the context of  functions this means that you don't have to pass it as an argument, but  that you can directly refer to it within the function.
 
-```js
+```javascript
 const globalVariable = 'This variable can be accessed wherever in the code';
 
 function accessGlobalVariable() {

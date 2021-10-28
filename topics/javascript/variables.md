@@ -8,7 +8,7 @@ We can use a *variable* to create a reference to a value. Variables can be thoug
 
 Before you use a variable in a JavaScript program, you must declare it. Variables are declared with *let* and *const* keywords as follows. `let` tells Javascript that the vairable will be changed. `const` tells Javascript that the variable cannot be changed.
 
-```js
+```javascript
 let greeting = "Hello world";
 console.log(greeting);
 
@@ -37,7 +37,7 @@ Consider this code, it has a syntax error in it.
 
 Fix it so that when running this file it shows the message `'I'm awesome!'`
 
-```js
+```javascript
 console.log('I'm awesome'!;
 ```
 

@@ -8,7 +8,7 @@ Functions are blocks of code that can do a task as many times as you ask them to
 
 Here's a function that doubles a number:
 
-````js
+````javascript
 function double(number) {
   return number * 2;
 }
@@ -18,7 +18,7 @@ function double(number) {
 
 To use a function then we we need to **call** it ( some people will say **invoke** )
 
-```js
+```javascript
 const result = double(2);
 console.log(result); // 4
 ```
@@ -35,7 +35,7 @@ In the example above, we're saying that inside the function `double`, there is a
 
 A function can have one or more **parameters**, check out the example below:
 
-```js
+```javascript
 function add(a, b) {
   return a + b;
 }
@@ -51,7 +51,7 @@ When you write a function (sometimes called *declaring a function*) you can defi
 
 The function below does exactly the same thing as the one above:
 
-``````js
+``````javascript
 function add(num1, num2) {
   return num1 + num2;
 }
@@ -117,7 +117,7 @@ Then use `console.log` the output in order to check your function.
 
 Check out the code below:
 
-```js
+```javascript
 function printMessage(x) {
   console.log("Hello, nice to meet you " + x);
 }
@@ -148,7 +148,7 @@ Discuss briefly which **parameter name** is better out of the two functions and 
 
 Someone then creates 2 further variables `messageForAli` and `curiousMessage`:
 
-```js
+```javascript
 const messageForAli = getMessage("Ali");
 
 const curiousMessage = getMessage(42);

@@ -18,7 +18,7 @@ Notice that strings are always wrapped **inside of quote marks**. We do this so 
 
 You can check that the data is a string by using the `typeof` operator:
 
-```js
+```javascript
 const message = "This is a string";
 const messageType = typeof message;
 
@@ -244,7 +244,7 @@ The last example with `typeof` an array is tricky. You can read about it [here](
 
 With pen and paper write down what is logged out:
 
-```js
+```javascript
 // Types
 console.log(typeof 3);
 console.log(typeof -33);

@@ -1,7 +1,5 @@
 # Arrow function
 
-
-
 There is another way of writing functions. It is quite useful and used a ton in more modern Javascript! especially with array methods!
 
 
