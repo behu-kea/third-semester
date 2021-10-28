@@ -10,13 +10,13 @@ Let's first create a simple example of a function 👇
 
 ```javascript
 function sum(a, b) {
-	return a + b;
+  return a + b;
 }
 
 // lets rewrite this into a variable that is assigned
 
 const sum = function (a, b) {
-	return a + b;
+  return a + b;
 }
 
 console.log(sum(1,2)); // 3
@@ -26,7 +26,7 @@ Now let's rewrite this into using arrow functions
 
 ```javascript
 const sum = (a, b) => {
-	return a + b;
+  return a + b;
 }
 console.log(sum(1,2)); // 3
 ```
