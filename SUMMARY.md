@@ -20,7 +20,7 @@
   - [DOM](topics/javascript/dom.md)
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
-  - [Routing using Navigo](topics/javascript/routing.md) 
+  - [Routing using Navigo](topics/javascript/routing.md)
   
 - Lessons
 
