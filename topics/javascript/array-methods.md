@@ -28,6 +28,8 @@ names.forEach(function (name, index) {
 });
 ```
 
+That means that the function we provide to the `forEach` method is called 3 times! The parameter `name` represents the individual elements in the array. The parameter `index` represents the index in the array. 
+
 
 
 ### Exercise (10 minutes)
@@ -56,43 +58,58 @@ The `map` method is used for transforming/changing/mapping the an array! Use it 
 Imagine you have the following array of names
 
 ```javascript
-const mentors = ["Daniel ", "irina ", " Gordon", "ashleigh "];
+const mentorNames = ["Daniel", "Irina", "Gordon", "Jim"];
 ```
 
-
-
-You notice that the names are not formatted consistently. To fix the array you decide you need to trim whitespace and convert to lowercase. How do  you do that for every value in the array?
-
-We can write a function that changes one name:
+Now a developer asks you if you can give the developer an array of the length of the mentors names. Fx Jim has 3 characters. This is a perfect case for `map`, we want to transform the array from the names to the names length
 
 ```javascript
-function tidy(name) {
-  return name.trim().toLowerCase();
-}
+const mentorNames = ["Daniel", "Irina", "Gordon", "Jim"];
+const mentorNameLengths = mentorNames.map(function(name) {
+	return name.length
+});
+console.log(mentorNameLengths); // [6, 5, 6, 3]
+
 ```
 
-All you need to run every name in the array through this function and update the array values. Thankfully there is an array method that does just this!
+Notice that calling the `map` returns a new array with the transformed data: `const mentorNameLengths = mentorNames.map`
 
 
-
-### `.map()`
-
-*Runs every item in the array through a function and returns a new array with the values returned by the function*.
 
 Have a look at this other example:
 
 ```javascript
+const numbers = [1, 2, 3];
+// call map using anonomous function
+const numbersDoubled = numbers.map(function(number) {
+    return number * 2;
+  }
+);
+
 function double(number) {
   return number * 2;
 }
-
-const numbers = [1, 2, 3];
-const numbersDoubled = numbers.map(double);
+// Calling map using a already defined function
+const numbersDoubledOtherWay = numbers.map(double);
 ```
 
-
-
 The `map()` method runs the function we provided (`double`) on each item in the array and uses the return values to create a new array. In the example `numbersDoubled` is a new array containing `[2, 4, 6]`.
+
+
+
+### Exercise
+
+Using the `mentorNames` array, make a new array with the last character in the array
+
+```javascript
+const mentorNames = ["Daniel", "Irina", "Gordon", "Jim"];
+```
+
+This should be the result
+
+```javascript
+console.log(newTransformedArray); // [l, a, n, m]
+```
 
 
 
@@ -101,7 +118,7 @@ The `map()` method runs the function we provided (`double`) on each item in the 
 Imagine you have an array of trainees' test scores:
 
 ```js
-*const* testScores = [90, 50, 100, 66, 25, 80, 81];
+const testScores = [90, 50, 100, 66, 25, 80, 81];
 ```
 
 
@@ -129,6 +146,11 @@ To find out which scores were greater than 80, you'd have to run this  function 
 ```js
 const highTestScores = testScores.filter(isHighScore);
 console.log(highTestScores); // logs [90, 100, 81]
+
+const highTestScoresOtherWay = testScores.filter(function(score) {
+  return score > 80;
+});
+console.log(highTestScoresOtherWay); // logs [90, 100, 81]
 ```
 
 
@@ -168,11 +190,21 @@ namesFormatted.forEach(log);
 
 It can be written more simply (without assigning the array returned from `.map()` to a variable):
 
-names.map(formatName).forEach(log);
+```javascript
+names
+  .map(formatName)
+  .forEach(log);
+```
+
+
 
 Be careful though! You can not call `.map()` after `.forEach`.
 
-names.forEach(log).map(formatName); *// ERROR*
+```javascript
+names
+  .forEach(log)
+  .map(formatName); *// ERROR*
+```
 
 This code does not work because `forEach()` does not return a new array (it returns `undefined`). The code is therefore attempting to call `.map()` on `undefined`, and `undefined` does not have a `.map()` method.
 
