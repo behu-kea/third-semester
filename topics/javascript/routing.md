@@ -94,9 +94,11 @@ This is the algorithm for when a user navigates to a specific url like `/about`
 1. Select the `content` div
 2. Set the `innerHTML` of the content div to the html for the new page. This will automatically remove the html that was already there from the last page the user visited!
 
+So we are actually doing all the hard work of writing the router in some sense
 
 
-`index.js`
+
+**`index.js`**
 
 ```javascript
 about: () => {
@@ -107,6 +109,27 @@ about: () => {
 
 ![Routing working](../../assets/routing-working.png)
 
+We are really staring to get far now 💪 But we have a problem. 
+
+
+
+When a user reloads the page on fx `/about` this error is shown `Cannot GET /about`. That is because the browser is trying to find the route or the ressource (about.html) on the server. But since we only have `index.html` that is served on this path `http://127.0.0.1:5500/` then the browser throws the error! Its basiscally saying "I cannot fint the `about.html` file"
+
+
+
+So what do we then do. We make hash routes👇
+
 
 
 ### Hash routing
+
+When using hash routing the urls look a bit different fx: http://127.0.0.1:5500/#/about The `/#` will not make the browser look for a new file, but simply still use the `index.html` which we are very happy about because that is where our whole application is running. 
+
+To setup that we initiate the `navigo` router like this: 
+
+```javascript
+const router = new Navigo("/", { hash: true });
+```
+
+![routing hash](../../assets/routing-hash.png)
+
