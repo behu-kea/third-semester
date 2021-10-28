@@ -18,6 +18,7 @@ The overall structure of the application looks like this 👇
 - `.gitignore` - contains the files that should not be included in the git repo (`.DS_Store` fx)
 - `index.html` - contains the `content` div, loads navigo and the main js file `index.js`
 - `router.js` - contains the router
+- `index.js` - just calls the `startRouter` that will start the router
 
 
 
@@ -94,5 +95,7 @@ The first thing you see is the imports. As we talked about in the `about.js` tha
 
 
 
-The last thing that might look a bit weird is the `renderMain().then(router.updatePageLinks);`. That is because if we render links in our application, then we have to call the `router.updatePageLinks` method!! This method is called 
+The last thing that might look a bit weird is the `renderMain().then(router.updatePageLinks);`. That is because if we render links in our application, then we have to call the `router.updatePageLinks` method!! 
+
+So what happens here is that calling `renderMain` will return a promise that resolves after the DOM has been updated. This can be used to update the links after the DOM has been rendered. Calling `router.updatePageLinks` could also have been done in the `main.js` file after this line `content.innerHTML = mainHtml;`
 
