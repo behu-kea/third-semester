@@ -44,7 +44,7 @@ Here are two examples, HTML and then JavaScript, of how the DOM might look like:
 
 
 ```javascript
-let document = {
+const document = {
   body: {
     h1: "Welcome",
     p: "Hello world!",
@@ -72,7 +72,7 @@ document.querySelectorAll("p");
 
 
 
-Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. `.querySelector` selects only the first element it finds, `querySelectorAll` selects all elements (it returns a `NodeList`, which you can think of as being similar to an array; it is an ordered  sequence of DOM elements which you can loop through like with an array.  The difference is that many common array methods like `.map` or `.concat` can't be used on a `NodeList`. To turn a `NodeList` into an array, you can use `Array.from`, e.g. `let elementArray = Array.from(document.querySelectorAll("div"));`).
+Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. `.querySelector` selects only the first element it finds, `querySelectorAll` selects all elements (it returns a `NodeList`, which you can think of as being similar to an array; it is an ordered  sequence of DOM elements which you can loop through like with an array.  The difference is that many common array methods like `.map` or `.concat` can't be used on a `NodeList`. To turn a `NodeList` into an array, you can use `Array.from`, e.g. `const elementArray = Array.from(document.querySelectorAll("div"));`).
 
 
 
@@ -117,7 +117,7 @@ Write JavaScript below that logs:
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
 
 ```javascript
-let myButton = document.querySelector("#myButton");
+const myButton = document.querySelector("#myButton");
 myButton.addEventListener("click", alertSomething);
 
 function alertSomething() {
@@ -138,7 +138,7 @@ When a user clicks the "ALERT" button, an alert box should pop up with the text 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
 
 ```javascript
-let myElement = document.querySelector("#myElement");
+const myElement = document.querySelector("#myElement");
 
 myElement.style.backgroundColor = "red";
 ```
@@ -156,7 +156,7 @@ Write JavaScript below that changes the background colour of the page when the "
 Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
 
 ````javascript
-let paragraph = document.createElement("p"); // here we're just creating it, element is not visible yet
+const paragraph = document.createElement("p"); // here we're just creating it, element is not visible yet
 
 myElement.appendChild(paragraph); // now the element is added to our view, but it's empty
 ````
@@ -187,7 +187,7 @@ We've been using `document.querySelector` to retrieve a single element. To retri
 
 ```javascript
 //change the background of all the paragraph items on our page
-let paragraphs = document.querySelectorAll("p");
+const paragraphs = document.querySelectorAll("p");
 for (let i = 0; i < paragraphs.length; i++) {
   paragraphs[i].style.backgroundColor = "blue";
 }
@@ -201,7 +201,7 @@ While it's really easy to change styles directly on elements using the `style` p
 
 ```javascript
 //before: <div id="myContainer"></div>
-let container = document.querySelector("#myContainer");
+const container = document.querySelector("#myContainer");
 container.className = "largeBlock";
 //after: <div id="myContainer" class="largeBlock"></div>
 ```
@@ -211,19 +211,19 @@ container.className = "largeBlock";
 To get the text from an Input field:
 
 ```javascript
-let updateTitleBtn = document.querySelector("#updateTitleBtn");
+const updateTitleBtn = document.querySelector("#updateTitleBtn");
 
 updateTitleBtn.addEventListener("click", function () {
-  let inputBox = document.querySelector("#titleInput");
-  let title = inputBox.value;
+  const inputBox = document.querySelector("#titleInput");
+  const title = inputBox.value;
 
-  let titleElement = document.querySelector("#lessonTitle");
+  const titleElement = document.querySelector("#lessonTitle");
   titleElement.innerText = title;
   inputBox.value = title;
 });
 ```
 
-The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable). To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
+The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable). To get the entered text from it, we use the `value` property: `const title = inputBox.value`.
 
 
 

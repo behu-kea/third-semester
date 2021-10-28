@@ -136,7 +136,7 @@ More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/Java
 To get the type of a value assigned to a variable, use the following code:
 
 ```javascript
-let bar = 42; 
+const bar = 42; 
 typeof bar    //-> 'number' 
 typeof typeof bar; //->  'string'
 ```

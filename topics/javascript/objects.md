@@ -29,17 +29,17 @@ Create an object that describes you. Fx a key called `age` with the value of 28.
 The objects below have some syntax issues - try and fix them all!
 
 ```javascript
-let kitten = {
+const kitten = {
     fur colour: "orange",
     age "23"
 };
 
-let laptop =
+const laptop =
     brand: "Lenovo"
     ram "5GB"
 }
 
-let phone = {
+const phone = {
     operating system "iOS",
     hasStylus: true,
     megapixels 12
@@ -55,7 +55,7 @@ let phone = {
 Let's take one of the objects we looked at earlier.
 
 ```javascript
-let laptop = {
+const laptop = {
   brand: "Lenovo",
   screenSize: 13,
   isTouchscreen: true,
@@ -85,7 +85,7 @@ console.log(laptop["brand"]);
 ```javascript
 // Console.log the values of each property of "kitten"
 
-let kitten = {
+const kitten = {
   ageMonths: 3,
   isFemale: true,
   furColour: "brown",
@@ -109,7 +109,7 @@ laptop.brand = "Apple";
 It's strongly recommended you always use the same **type** when re-assigning an object's property (if it was a string before, keep it a string - and so on).
 
 ```javascript
-let laptop = {
+const laptop = {
   brand: "Lenovo",
   screenSize: 13,
   isTouchscreen: true,
@@ -129,7 +129,7 @@ laptop.screenSize = 15;
 Write code in the space provided so that the expected values output
 
 ```javascript
-let dog = {
+const dog = {
   name: "Billy",
   wantsToPlay: false,
 };

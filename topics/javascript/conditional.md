@@ -12,7 +12,7 @@ The most common type of conditional is the **if statement**.
 An if statement runs some code if a condition is met. If the condition is not met, then the code will be skipped.
 
 ```javascript
-let isHappy = true;
+const isHappy = true;
 
 if (isHappy) {
   console.log("I am happy");
@@ -33,7 +33,7 @@ if (true) {
 }
 
 // variable assigned to boolean value
-let isHappy = true;
+const isHappy = true;
 
 if (isHappy) {
   // do something
@@ -64,7 +64,7 @@ An `if` statement runs code when a condition is met. What if the condition is  n
 An **if...else statement** also runs code when the condition is *not* met.
 
 ```javascript
-let isHappy = true;
+const isHappy = true;
 
 if (isHappy) {
   console.log("I am happy 😄");
