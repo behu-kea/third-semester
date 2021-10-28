@@ -76,42 +76,6 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. 
 
 
 
-### Preparation for exercises
-
-##### Exercise
-
-Let's work on the code provided [here](https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation) 
-
-That means you have to clone [this repo](https://github.com/CodeYourFuture/js-exercises) onto your computer and then find the A-dom-manipulation folder to open in VS code
-
-1. Open "A-dom-manipulation" project in VS code
-
-2. View your changes by
-
-   - using 
-
-     vscode-live-server
-
-      plugin to get live updates of your changes.
-
-     - Install the plugin
-     - Right click on `index.html` and select "Open with Live Server"
-
-   - or just open the `index.html` on your browser and refresh every time you change your code
-
-     
-
-### Exercise (1)
-
-Write JavaScript below that logs:
-
-1. all the "p" element nodes of the document, --> should log a list of nodes with a length of 6
-2. the first div element node --> should log the ".site-header" node
-3. the element with id "jumbotron-text" --> should log the "#jumbotron-text" node
-4. all the "p" elements contained inside the .primary-content element node --> should log a list of nodes with a length of 3
-
-
-
 ## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
@@ -131,26 +95,6 @@ You will notice in the example that we passed a second argument to `addEventList
 
 
 
-### Exercise (2)
-
-When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
-
-The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
-
-```javascript
-const myElement = document.querySelector("#myElement");
-
-myElement.style.backgroundColor = "red";
-```
-
-
-
-### Exercise (3)
-
-Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
-
-
-
 ## Create DOM elements
 
 Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
@@ -166,10 +110,6 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 `document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
 
 
-
-### Exercise (4)
-
-When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 
 
@@ -224,6 +164,72 @@ updateTitleBtn.addEventListener("click", function () {
 ```
 
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable). To get the entered text from it, we use the `value` property: `const title = inputBox.value`.
+
+
+
+
+
+## Exercises
+
+
+
+### Preparation for exercises
+
+Let's work on the code provided [here](https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation) 
+
+That means you have to clone [this repo](https://github.com/CodeYourFuture/js-exercises) onto your computer and then find the A-dom-manipulation folder to open in VS code
+
+1. Open "A-dom-manipulation" project in VS code
+
+2. View your changes by
+
+   - using 
+
+     vscode-live-server
+
+      plugin to get live updates of your changes.
+
+     - Install the plugin
+     - Right click on `index.html` and select "Open with Live Server"
+
+   - or just open the `index.html` on your browser and refresh every time you change your code
+
+     
+
+### Exercise (1)
+
+Write JavaScript below that logs:
+
+1. all the "p" element nodes of the document, --> should log a list of nodes with a length of 6
+2. the first div element node --> should log the ".site-header" node
+3. the element with id "jumbotron-text" --> should log the "#jumbotron-text" node
+4. all the "p" elements contained inside the .primary-content element node --> should log a list of nodes with a length of 3
+
+
+
+
+
+### Exercise (2)
+
+When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
+
+The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
+
+```javascript
+const myElement = document.querySelector("#myElement");
+
+myElement.style.backgroundColor = "red";
+```
+
+
+
+### Exercise (3)
+
+Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
+
+### Exercise (4)
+
+When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 
 
