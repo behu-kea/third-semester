@@ -15,7 +15,7 @@ Asynchronous programming is for some the hardest part of Javascript. But through
 1. `addEventListener` - this method will call another method some event happens
 2. `fetch` - this method will fetch some data and when that data is fetched it will call a method
 
-This is what essentially asynchronous programming in Javascript is: You set up a function that will wait until something happens (a button is clicked, some data is fetched, a countdown is done and so on). When that something happens a function that you gave the other function will get called. This is also the concept behind a callback function that we briefly talked about.
+This is what essentially asynchronous programming in Javascript is: You set up a function that will wait until something happens (a button is clicked, some data is fetched, a countdown is done and so on). When that something happens a function that you gave the other function will get called. This is also the concept behind a callback function.
 
 
 
@@ -43,60 +43,6 @@ setinterval(function() {
 	console.log("This is logged every 3 seconds");
 }, 3000);
 ```
-
-
-
-## Function can take another method
-
-In Javascript functions work just like any other variable. That means that they can be added to an array, the can be given as an argument to antoher function or the can be the value of an object's key. 
-
-
-
-Let's first take a look at this example. It is a number that gets thrown around in an array, as an object key, and as a parameter in a function.
-
-```js
-const someNumber = 2;
-
-const methodArray = [someNumber, 6];
-
-const functionObject = {
-  numberKey: someNumber
-}
-
-function takesAnotherNumber(numberParameter) {
-	console.log(numberParameter);
-}
-
-takesAnotherNumber(someNumber);
-```
-
-
-
-Now take a look at this example. Here what is being thrown around is not a number but a function. Because for Javascript there is no difference.
-
-```js
-const someFunction = function() {
-	const age = 22;
-	console.log(age);
-}
-
-const methodArray = [someFunction, function() {
-  console.log("I am a function in an array");
-}];
-
-const functionObject = {
-  functionKey: someFunction
-}
-
-function takesAnotherFunction(functionParameter) {
-  functionParameter();
-}
-
-// In the example someFunction is acting as a callback function
-takesAnotherFunction(someFunction);
-```
-
-This might be a bit mind bending, but is supposed to help with realizing that functions in Javascript is **just** like any other type.
 
 
 
@@ -212,4 +158,39 @@ thirdpromise.catch((error) => console.log(error));
 ```
 
 
+
+## Exercises
+
+
+
+### Exercise 1
+
+Create a function that when called will wait for 3 seconds and the log out some text
+
+
+
+### Exercise 2
+
+Create a function that takes 2 parameters: `delay` and `textToLog`. 
+
+Calling this function should log out the `textToLog` after `delay` seconds. Try use the function with some different texts and delays
+
+
+
+### Exercise 3
+
+Create a button in html. When clicking this button, use the function you created in the previous task to log out the text: `Called after 5 seconds` 5 seconds after the button is clicked.
+
+![Button delay click](https://github.com/HackYourFuture-CPH/JavaScript/raw/master/javascript2/week3/assets/button-delay.gif)
+
+
+
+### Exercise 4
+
+Fetch movies using this [api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json)
+
+1. Log out all the movies
+2. Render the movies to the DOM
+3. Create a checkbox. When the checkbox is checked, show new movies when the checkbox is not checked show old movies
+4. Create search functionality so i as a user can search for a movie name and see the movies that match what i wa searching for
 
