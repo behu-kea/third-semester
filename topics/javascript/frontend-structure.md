@@ -89,7 +89,7 @@ export default function () {
 
 The first thing you see is the imports. As we talked about in the `about.js` that is where the functions are exported. Here they are imported using the `import` keyword: `import renderMain from "./pages/main/main.js";`
 
-**🚨This only works because the `index.js` file is loaded using the `type=module` in the `index.html` file!**🚨
+🚨**This only works because the `index.js` file is loaded using the `type=module` in the `index.html` file!**🚨
 
 `<script src="index.js" type="module"></script>`
 
