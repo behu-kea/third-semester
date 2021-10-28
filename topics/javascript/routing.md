@@ -36,7 +36,7 @@ const router = new Navigo("/", { hash: true });
         console.log('User requested the about page');
       },
       "/user/:id/": ({ data }) => {
-        console.log('User requested user page with id' + data.id);
+        console.log('User requested user page with id ' + data.id);
       },
     })
     .resolve();
@@ -63,9 +63,49 @@ There are a couple of things to comment in the code above
 
 
 
-Okay, so what we have created so far is just some routes and when a user goes to those routes we log something out. But that's not really super helpful for a user. He off course wants to see some html regarding the about page. 
+Okay, so what we have created so far is just some routes and when a user goes to those routes we log something out. 
+
+![Routing only logs](../../assets/routing-only-logs.png)
+
+But that's not really super helpful for a user.  A user off course wants to see some html regarding the about page. 
 
 
+
+### Changing the html
+
+So we need to write some html that when going to a specific page also renders some html. Again this can be done in lots of different ways. Let's talk about how we do it 👇
+
+
+
+This is the `index.html`
+
+```html
+<body>
+  <div class="content"></div>
+  <script src="//unpkg.com/navigo"></script>
+  <script src="index.js" type="module"></script>
+</body>
+```
+
+The div with class `content` is where we will be rendering the individual pages! 
+
+This is the algorithm for when a user navigates to a specific url like `/about`
+
+1. Select the `content` div
+2. Set the `innerHTML` of the content div to the html for the new page. This will automatically remove the html that was already there from the last page the user visited!
+
+
+
+`index.js`
+
+```javascript
+about: () => {
+  const content = document.querySelector(".content");
+  content.innerHTML = "<h1>This is the about page</h1><h2>This page was created back in 1992</h2>";
+},
+```
+
+![Routing working](../../assets/routing-working.png)
 
 
 
