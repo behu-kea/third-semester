@@ -19,7 +19,7 @@ There are lots of API's online. It might be a new concept for you to work with t
 - https://yesno.wtf/api/ - An API that will return either yes or no
 - http://deckofcardsapi.com/ - An API that will give you different data simulating a deck of cards
 - https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8&#8217 - API that will give you a random number by measuring quantum fluctuations of a vacuum in real-time!
-- http://api.open-notify.org/astros.json - API showing the number of people in space right now
+- http://api.open-notify.org/astros.json - API showing the number of people in space right now. This does not support https which is a problem when deploying the site!
 - https://dog.ceo/api/breeds/image/random - Get a random image of a dog
 
 Here is a **huge** list of public API's: https://github.com/public-apis/public-apis
@@ -34,7 +34,7 @@ Lets's get some data from an API using `fetch` 👇
 
 `fetch` is the Javascript version of Postman!! Literally!
 
-```jade
+```javascript
 const apiUrl = 'https://yesno.wtf/api/';
 fetch(apiUrl)
     .then(response => response.json())
@@ -92,7 +92,24 @@ You can also `PUT`, `PATCH` and `DELETE` using `fetch`
 
 ## Exercises
 
+
+
 ### Exercise 1
 
-Fetch astronauts
+Fetch yes or no from this api: https://yesno.wtf/api/
 
+1. Firstly just log out yes or no
+2. Render the text yes or no to the DOM
+3. Render the image and the text to the DOM
+
+
+
+### Exercise 2 - Pick a project
+
+Pick one of these projects to work on in class
+
+- [Gif searching site](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week1/homework.md#giphy-api)
+- [Current weather site](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week1/homework.md#weather-app)
+- [Dog fan website](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week1/lesson-plan.md#dog-fan-website)
+
+We will follow up in the next class to see some of your projects
