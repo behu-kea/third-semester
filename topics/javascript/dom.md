@@ -193,8 +193,6 @@ for (let i = 0; i < paragraphs.length; i++) {
 
 
 
-
-
 We've learned that `style` and `innerText` are properties of DOM elements. Image tags can also have `width` and `height`.
 
 While it's really easy to change styles directly on elements using the `style` property, it is not usually a good idea to mix JavaScript and CSS (see  separation of concerns in the first lesson). To solve this, we can use  the `className` property to set the class for an element instead of changing its styles directly:
@@ -222,8 +220,6 @@ updateTitleBtn.addEventListener("click", function () {
   inputBox.value = title;
 });
 ```
-
-
 
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable). To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
 
