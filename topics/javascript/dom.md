@@ -80,9 +80,9 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. 
 
 ##### Exercise
 
-Let's work on the code provided here: https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
+Let's work on the code provided [here](https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation) 
 
-That means you have to clone this repo onto your computer: https://github.com/CodeYourFuture/js-exercises and then find the A-dom-manipulation folder to open in VS code
+That means you have to clone [this repo](https://github.com/CodeYourFuture/js-exercises) onto your computer and then find the A-dom-manipulation folder to open in VS code
 
 1. Open "A-dom-manipulation" project in VS code
 
