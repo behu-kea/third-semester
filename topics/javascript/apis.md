@@ -94,7 +94,7 @@ You can also `PUT`, `PATCH` and `DELETE` using `fetch`
 
 
 
-### Exercise 1
+### Exercise 1 - get
 
 Fetch yes or no from this api: https://yesno.wtf/api/
 
@@ -104,7 +104,25 @@ Fetch yes or no from this api: https://yesno.wtf/api/
 
 
 
-### Exercise 2 - Pick a project
+### Exerise 2 - post
+
+Create a new comment using the `POST` request on this mock server (only used for development)
+
+https://jsonplaceholder.typicode.com/comments
+
+To create a new comment you must specify 
+
+- `name` - Name of the commenter
+- `email` - Email of the commenter
+-  `body` - The comment text
+
+Log out the response from the api
+
+**You will not be inserting any data into any database!**
+
+
+
+### Exercise 3 - Pick a project
 
 Pick one of these projects to work on in class
 
