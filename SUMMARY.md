@@ -21,7 +21,9 @@
   - [API's](topics/javascript/apis.md)
   - [Asynchronous programming](topics/javascript/async.md)
   - [Routing using Navigo](topics/javascript/routing.md)
-  -  [Frontend structure](topics/javascript/frontend-structure.md) 
+  - [Frontend structure](topics/javascript/frontend-structure.md) 
+  - [Connecting your frontend to api](topics/javascript/connecting-frontend-to-api.md)
+  - [Authentication](topics/javascript/authentication.md)
   
 - Lessons
 

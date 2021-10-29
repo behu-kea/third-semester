@@ -19,27 +19,27 @@ To get access to navigo add this line before you load the rest of your javascrip
 ```html
 <body>
   <script src="//unpkg.com/navigo"></script>
-  <script src="index.js"></script>
+  <script src="router.js"></script>
 </body>
 ```
 
-Now in your `index.js` file
+Now in your `router.js` file
 
 ```javascript
 const router = new Navigo("/", { hash: true });
- router
-    .on({
-      "/": () => {
-        console.log('User requested main page');
-      },
-      "about": () => {
-        console.log('User requested the about page');
-      },
-      "/user/:id/": ({ data }) => {
-        console.log('User requested user page with id ' + data.id);
-      },
-    })
-    .resolve();
+router
+  .on({
+  	"/": () => {
+      console.log('User requested main page');
+    },
+    "about": () => {
+      console.log('User requested the about page');
+    },
+    "/user/:id/": ({ data }) => {
+      console.log('User requested user page with id ' + data.id);
+    },
+	})
+  .resolve();
 }
 ```
 
@@ -83,7 +83,7 @@ This is the `index.html`
 <body>
   <div class="content"></div>
   <script src="//unpkg.com/navigo"></script>
-  <script src="index.js" type="module"></script>
+  <script src="router.js" type="module"></script>
 </body>
 ```
 

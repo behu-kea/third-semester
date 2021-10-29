@@ -16,9 +16,8 @@ The overall structure of the application looks like this 👇
 
 - The `pages` - folder contains the different pages in the application. each page has an html file and a js file
 - `.gitignore` - contains the files that should not be included in the git repo (`.DS_Store` fx)
-- `index.html` - contains the `content` div, loads navigo and the main js file `index.js`
+- `index.html` - contains the `content` div, loads navigo and the main js file `router.js`
 - `router.js` - contains the router
-- `index.js` - just calls the `startRouter` that will start the router
 
 
 
