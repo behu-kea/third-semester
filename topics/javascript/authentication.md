@@ -34,7 +34,7 @@ One extra thing we can see from this diagram is that the JWT token is sent throu
 
 Let's start with the login part where we get and save a token:
 
-```js
+```javascript
 function login(username, password) {
   // endpoint for logging in
   const apiUrl = "auth/signin";
@@ -62,7 +62,7 @@ We have seen the `POST` request before. The `auth/signin` off course depends on 
 
 Where the magic 🪄 happens are in these lines 👇
 
-```js
+```javascript
 if (response.data.accessToken) {
 	localStorage.setItem("user", JSON.stringify(response.data));
 }
@@ -82,7 +82,7 @@ We can even see what we save in localatorage, especially the `accessToken`!
 
 In this example we will getting some imaginary social media posts. This endpoint is only available for logged in users!
 
-```js
+```javascript
 // endpoint only available for a logged in user!
 const apiUrl = '/social-media-posts';
 // Get the JWT token from local storage
