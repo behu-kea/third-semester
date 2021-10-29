@@ -10,8 +10,6 @@ Support video: https://youtu.be/wBKv2EX2hw8 and https://youtu.be/w4FNF8FLjQU
 
 
 
-### `.forEach()`
-
 Say we want to log to the console a list of names.
 
 ```javascript
