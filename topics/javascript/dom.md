@@ -185,7 +185,7 @@ That means you have to clone [this repo](https://github.com/CodeYourFuture/js-ex
 
      
 
-### Exercise (1)
+### Exercise 1
 
 Write JavaScript below that logs:
 
@@ -196,7 +196,7 @@ Write JavaScript below that logs:
 
 
 
-### Exercise (2)
+### Exercise 2
 
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
 
@@ -210,19 +210,31 @@ myElement.style.backgroundColor = "red";
 
 
 
-### Exercise (3)
+### Exercise 3
 
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
-### Exercise (4)
+
+
+### Exercise 4
 
 When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 
 
-### Exercise (5)
+### Exercise 5
 
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
+
+
+
+### Exericse 6
+
+When clicking the add button, take the text written in the input element, and add that text to the DOM. The text should be added using `ul` and `li`
+
+
+
+### Exercise 7
 
 
 
