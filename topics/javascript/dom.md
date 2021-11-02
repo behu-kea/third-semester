@@ -65,7 +65,7 @@ This is how we would represent the document hierarchy above as a tree of nodes:
 The DOM offers a lot of useful functions we can use to find elements on the page. Here are some we'll be using today:
 
 ```javascript
-document.querySelector("#mainHeader");
+document.querySelector(".main-header");
 
 document.querySelectorAll("p");
 ```
@@ -81,15 +81,13 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input. 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
 
 ```javascript
-const myButton = document.querySelector("#myButton");
-myButton.addEventListener("click", alertSomething);
+const changeBackground = document.querySelector(".change-background");
+myButton.addEventListener("click", logSomething);
 
-function alertSomething() {
-  alert("Something");
+function logSomething() {
+  console.log("Something");
 }
 ```
-
-
 
 You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
 
@@ -102,14 +100,12 @@ Using the `document`, you can also create new elements. These elements will not 
 ````javascript
 const paragraph = document.createElement("p"); // here we're just creating it, element is not visible yet
 
-myElement.appendChild(paragraph); // now the element is added to our view, but it's empty
+header.appendChild(paragraph); // now the element is added to our view, but it's empty
 ````
 
 
 
 `document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
-
-
 
 
 
@@ -133,17 +129,15 @@ for (let i = 0; i < paragraphs.length; i++) {
 }
 ```
 
-
-
 We've learned that `style` and `innerText` are properties of DOM elements. Image tags can also have `width` and `height`.
 
 While it's really easy to change styles directly on elements using the `style` property, it is not usually a good idea to mix JavaScript and CSS (see  separation of concerns in the first lesson). To solve this, we can use  the `className` property to set the class for an element instead of changing its styles directly:
 
 ```javascript
-//before: <div id="myContainer"></div>
-const container = document.querySelector("#myContainer");
-container.className = "largeBlock";
-//after: <div id="myContainer" class="largeBlock"></div>
+//before: <div id="unique-button"></div>
+const header = document.querySelector("#unique-button");
+header.className = "large-block";
+//after: <div id="unique-button" class="large-block"></div>
 ```
 
 
@@ -151,21 +145,16 @@ container.className = "largeBlock";
 To get the text from an Input field:
 
 ```javascript
-const updateTitleBtn = document.querySelector("#updateTitleBtn");
+const updateTitleBtn = document.querySelector(".update-title-button");
 
 updateTitleBtn.addEventListener("click", function () {
-  const inputBox = document.querySelector("#titleInput");
+  const inputBox = document.querySelector(".title-input");
   const title = inputBox.value;
-
-  const titleElement = document.querySelector("#lessonTitle");
-  titleElement.innerText = title;
-  inputBox.value = title;
+	console.log(title);
 });
 ```
 
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable). To get the entered text from it, we use the `value` property: `const title = inputBox.value`.
-
-
 
 
 
@@ -204,8 +193,6 @@ Write JavaScript below that logs:
 2. the first div element node --> should log the ".site-header" node
 3. the element with id "jumbotron-text" --> should log the "#jumbotron-text" node
 4. all the "p" elements contained inside the .primary-content element node --> should log a list of nodes with a length of 3
-
-
 
 
 
