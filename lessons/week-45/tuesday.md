@@ -1,5 +1,5 @@
 # Tuesday
 
-- Teach [apis](../../topics/javascript/apis.md)
-- Do the exerises in [apis](../../topics/javascript/apis.md)
+- Teach [dom](../../topics/javascript/dom.md) 
+- Do the exerises in [dom](../../topics/javascript/dom.md) 
 

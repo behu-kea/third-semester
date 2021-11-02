@@ -1,5 +1,4 @@
 # Tuesday
 
-- How to strcuture a frontend application
-- Frontend project presentation
-
+- Teach [async](../../topics/javascript/async.md)
+- Do the exerises in [async](../../topics/javascript/async.md)

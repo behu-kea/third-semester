@@ -1,5 +1,5 @@
 # Thursday
 
-- Teach [async](../../topics/javascript/async.md)
-- Do the exerises in [async](../../topics/javascript/async.md)
+- Teach [apis](../../topics/javascript/apis.md)
+- Do the exerises in [apis](../../topics/javascript/apis.md)
 
