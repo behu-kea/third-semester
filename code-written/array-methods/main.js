@@ -73,3 +73,33 @@ const newName = function (name) {
 
 //names.forEach(newName);
 names.forEach((name) => console.log(name));
+
+// map transforming
+const surnames = ["Hughes", "Jensen"];
+const surnamesMapped = surnames.map(function (surname) {
+  // string literal
+  // return surname[0] + ".";
+  return `${surname[0]}.`;
+});
+
+console.log(surnamesMapped);
+
+// [H., J. ]
+/*
+const grades = [2, 5, 7, 10, 12, 12, 3, 6];
+const goodGrades = grades.filter(function (grade) {
+  console.log(grade);
+
+  if (grade >= 7) {
+    console.log("This item should be kept");
+    return true;
+  }
+});
+
+console.log(goodGrades);
+*/
+//optimized
+const grades = [2, 5, 7, 10, 12, 12, 3, 6];
+const goodGrades = grades.filter((grade) => grade >= 7);
+
+console.log(goodGrades);
