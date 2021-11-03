@@ -230,11 +230,19 @@ When the "Larger links!" button is clicked, the text of all links on the page sh
 
 ### Exericse 6
 
-When clicking the add button, take the text written in the input element, and add that text to the DOM. The text should be added using `ul` and `li`
+When clicking the blue add button, take the text written in the input element, and add that text to the DOM. The text should be added using `ul` and `li`
 
 
 
 ### Exercise 7
+
+Clicking `Donate Now` should show a modal where a user can input some amount they want to donate to the cause. When they written the amount they should be able to click a button that will do the donation. When the donation has been completed. Show a success message and then close the modal.
+
+
+
+### Exercise 8
+
+Your feature here. Come up with some feature you would like to create!
 
 
 
