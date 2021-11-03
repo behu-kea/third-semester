@@ -170,20 +170,7 @@ That means you have to clone [this repo](https://github.com/CodeYourFuture/js-ex
 
 1. Open "A-dom-manipulation" project in VS code
 
-2. View your changes by
 
-   - using 
-
-     vscode-live-server
-
-      plugin to get live updates of your changes.
-
-     - Install the plugin
-     - Right click on `index.html` and select "Open with Live Server"
-
-   - or just open the `index.html` on your browser and refresh every time you change your code
-
-     
 
 ### Exercise 1
 
