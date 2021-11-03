@@ -150,7 +150,7 @@ const updateTitleBtn = document.querySelector(".update-title-button");
 updateTitleBtn.addEventListener("click", function () {
   const inputBox = document.querySelector(".title-input");
   const title = inputBox.value;
-	console.log(title);
+  console.log(title);
 });
 ```
 
