@@ -1,6 +1,6 @@
 # API's
 
-You should have a fairly good idea of what an API is from the backend module. You should also have an idea of what Postman is and how to use it. With Postman we send a request to an API and get some data back. 
+You should have a fairly good idea of what an API is from the backend module. You should also have an idea of what Postman is and how to use it. With Postman we send a requests to an API and get some data back. 
 
 In Javascript we need to do the **exact** same! There are different tools for fetching data from an api with javascript, but we will be using a method called `fetch`. `fetch` does exactly the same as Postman
 
@@ -14,7 +14,7 @@ Support video about fetch: https://youtu.be/pL_zEzunBKU
 
 ## Public API's
 
-There are lots of API's online. It might be a new concept for you to work with these API's but they work exactly like the API you have created in the backend module. Here is a list of some fun/cool/quirky API's
+There are lots of API's online. Here is a list of some fun/cool/quirky API's
 
 - https://yesno.wtf/api/ - An API that will return either yes or no
 - http://deckofcardsapi.com/ - An API that will give you different data simulating a deck of cards
@@ -28,7 +28,7 @@ Here is a **huge** list of public API's: https://github.com/public-apis/public-a
 
 ## GETting data from an API using `fetch`
 
-This technology of getting data from a server is called **AJAX**
+The technology of getting data from a server is called **AJAX**
 
 Lets's get some data from an API using `fetch` 👇
 
