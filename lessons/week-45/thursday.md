@@ -7,7 +7,7 @@
 
 ## Peer instruction
 
-
+<!---
 
 ### Question 1
 
@@ -33,3 +33,4 @@ What will be logged?
 4. `[Object object]`
 5. `null`
 
+-->
