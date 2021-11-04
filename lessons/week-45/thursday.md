@@ -20,6 +20,16 @@
 `main.js`
 
 ```javascript
-const userDetails = 
+const userDetails = document.querySelectorAll(".user-details");
+userDetails.innerHTML = "age: 23, name: Camilla";
+console.log(userDetails.innerHTML);
 ```
+
+What will be logged?
+
+1. Throws error
+2. `"age: 23, name: Camilla"`
+3. `undefined`
+4. `[Object object]`
+5. `null`
 
