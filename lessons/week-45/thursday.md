@@ -7,3 +7,19 @@
 
 ## Peer instruction
 
+
+
+### Question 1
+
+`index.html`
+
+```html
+<div class="user-details"></div>
+```
+
+`main.js`
+
+```javascript
+const userDetails = 
+```
+
