@@ -176,24 +176,16 @@ That means you have to clone [this repo](https://github.com/CodeYourFuture/js-ex
 
 Write JavaScript below that logs:
 
-1. all the "p" element nodes of the document, --> should log a list of nodes with a length of 6
-2. the first div element node --> should log the ".site-header" node
-3. the element with id "jumbotron-text" --> should log the "#jumbotron-text" node
-4. all the "p" elements contained inside the .primary-content element node --> should log a list of nodes with a length of 3
+1. All the `p` tags
+2. The first `div` tag
+3. The element with id `jumbotron-text`
+4. All the `p` tags contained inside the `.primary-content` tag
 
 
 
 ### Exercise 2
 
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
-
-The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
-
-```javascript
-const myElement = document.querySelector("#myElement");
-
-myElement.style.backgroundColor = "red";
-```
 
 
 
