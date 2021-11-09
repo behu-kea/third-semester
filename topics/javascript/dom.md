@@ -56,7 +56,7 @@ const document = {
 
 This is how we would represent the document hierarchy above as a tree of nodes:
 
-![img](https://syllabus.codeyourfuture.io/91f23c157d97a7987a67b729c1494a91.png)
+![DOM representation](https://syllabus.codeyourfuture.io/91f23c157d97a7987a67b729c1494a91.png)
 
 
 
