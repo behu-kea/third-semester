@@ -46,5 +46,9 @@ Hand in the project on fronter here: https://kea-fronter.itslearning.com/Learnin
 
 
 
+Handin time: **28-11-2021 23:59**
+
+
+
 The code should be hosted at surge. Post the link to the github repo url and the deployed url in the Fronter assignment!
 
