@@ -1,7 +1,7 @@
 # Tuesday
 
 - Læringsbarometer
-- Peer instruction
+- Peer instruction below
 - Teach [dom](../../topics/javascript/dom.md)
 - Do the exerises in [dom](../../topics/javascript/dom.md)
 
