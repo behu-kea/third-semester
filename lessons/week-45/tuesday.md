@@ -1,12 +1,11 @@
 # Tuesday
 
 - Læringsbarometer
+- Peer instruction
 - Teach [dom](../../topics/javascript/dom.md)
 - Do the exerises in [dom](../../topics/javascript/dom.md)
 
 
-
-<!---
 
 ## Peer instruction questions
 
@@ -67,7 +66,3 @@ console.log(agesDescription);
 5. `undefined`
 
 
-
-
-
--->
