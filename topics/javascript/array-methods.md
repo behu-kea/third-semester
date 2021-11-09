@@ -1,6 +1,6 @@
 # Array methods
 
-Support video: https://youtu.be/wBKv2EX2hw8 and https://youtu.be/w4FNF8FLjQU
+Support video:  [https://youtu.be/wBKv2EX2hw8](https://youtu.be/wBKv2EX2hw8) and  [https://youtu.be/w4FNF8FLjQU](https://youtu.be/w4FNF8FLjQU)
 
 
 

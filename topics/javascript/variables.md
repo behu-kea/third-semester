@@ -1,6 +1,6 @@
 # Variables
 
-https://youtu.be/Jvrszgiexg0
+[https://youtu.be/Jvrszgiexg0](https://youtu.be/Jvrszgiexg0)
 
 When you write code, you'll want to create shortcuts to data values so you don't have to write out the same value every time.
 

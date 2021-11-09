@@ -4,7 +4,7 @@
 
 ## Comparison operators
 
-https://www.youtube.com/watch?v=Opl-KwCBxRg
+[https://www.youtube.com/watch?v=Opl-KwCBxRg](https://www.youtube.com/watch?v=Opl-KwCBxRg)
 
 
 

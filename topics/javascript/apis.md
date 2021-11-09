@@ -6,9 +6,9 @@ In Javascript we need to do the **exact** same! There are different tools for fe
 
 
 
-Support video about json: https://youtu.be/ghMR-k5pKjg
+Support video about json: [https://youtu.be/ghMR-k5pKjg](https://youtu.be/ghMR-k5pKjg)
 
-Support video about fetch: https://youtu.be/pL_zEzunBKU
+Support video about fetch: [https://youtu.be/pL_zEzunBKU](https://youtu.be/pL_zEzunBKU)
 
 
 

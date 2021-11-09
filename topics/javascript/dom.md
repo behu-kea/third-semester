@@ -1,6 +1,6 @@
 # DOM
 
-Support video: https://youtu.be/YvHQIaKtOl8
+Support video: [https://youtu.be/YvHQIaKtOl8](https://youtu.be/YvHQIaKtOl8)
 
 
 
