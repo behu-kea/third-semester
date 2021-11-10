@@ -131,3 +131,6 @@ Pick one of these projects to work on in class
 - [Dog fan website](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week1/lesson-plan.md#dog-fan-website)
 
 We will follow up in the next class to see some of your projects
+
+Hand the project in here: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=942249
+
