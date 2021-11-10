@@ -16,23 +16,50 @@
 `index.html`
 
 ```html
-<div class="user-details"></div>
+<body></body>
 ```
 
 `main.js`
 
 ```javascript
-const userDetails = document.querySelectorAll(".user-details");
-userDetails.innerHTML = "age: 23, name: Camilla";
-console.log(userDetails.innerHTML);
+const pElement = document.createElement('p');
+pElement.innerHTML = 'bobenonajojimominon';
+console.log(document.querySelector('p').innerHTML);
 ```
 
 What will be logged?
 
 1. Throws error
-2. `"age: 23, name: Camilla"`
+2. `bobenonajojimominon`
 3. `undefined`
 4. `[Object object]`
 5. `null`
+
+
+
+### Question 2
+
+`index.html`
+
+```html
+<button></button>
+```
+
+`main.js`
+
+```javascript
+const buttonElement = document.querySelector("button");
+const logText = function(text) {
+  console.log(text);
+}
+buttonElement.addEventListener('click', logText('hello'));
+```
+
+What will happen when the button is clicked
+
+1. Throws error
+2. Logs out `undefined`
+3. Logs out `hello`
+4. Nothing happens
 
 -->
