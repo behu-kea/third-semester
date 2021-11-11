@@ -69,7 +69,7 @@ To post data to an API there are two things you need to specify
 const apiUrl = 'https://my-json-server.typicode.com/typicode/demo/posts';
 fetch(apiUrl, {
 	method: 'POST',
-  body: JSON.stringify( { id: 42, title, "Test title" }),
+  body: JSON.stringify( { id: 42, title: "Test title" }),
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   },
