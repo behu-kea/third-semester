@@ -105,13 +105,13 @@ const swipePromise = swipeCard();
 swipePromise
   .then(() => {
   	// code for animating the next profile into view
-	});
+  });
 
 	// This can be simplified like this👇
 	swipeCard()
     .then(() => {
     	// code for animating the next profile into view
-  	});
+    });
 ```
 
 So we call a method called `swipeCard`. This method will start the animation of the card and then return a `promise`. When the card is animated the returned promise would fulfill/resolve
@@ -128,7 +128,7 @@ fetch('some-url')
 // the same could be written like this
 const fetchPromise = fetch('some-url');
 fetchPromise
-	// this method will be called when the server responds!
+  // this method will be called when the server responds!
   .then((response) => response.json())
   .catch((error) => console.log(error));
 ````
