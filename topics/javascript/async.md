@@ -23,9 +23,9 @@ This is what essentially asynchronous programming in Javascript is: You set up a
 
 The `setTimeout` method will wait some time before calling a function
 
-```js
+```javascript
 setTimeout(function() {
-	console.log("This is logged after 3 seconds");
+  console.log("This is logged after 3 seconds");
 }, 3000);
 ```
 
@@ -40,7 +40,7 @@ The `setInterval` will works nearly like the `setTimeout` function it just keeps
 
 ```javascript
 setinterval(function() {
-	console.log("This is logged every 3 seconds");
+  console.log("This is logged every 3 seconds");
 }, 3000);
 ```
 
@@ -103,15 +103,15 @@ I was working at a dating website. I had to write the functionality for being ab
 // calling the swipeCard method will return a promise
 const swipePromise = swipeCard();
 swipePromise
-	.then(() => {
-		// code for animating the next profile into view
+  .then(() => {
+  	// code for animating the next profile into view
 	});
 
-// This can be simplified like this👇
-swipeCard()
-	.then(() => {
-		// code for animating the next profile into view
-	});
+	// This can be simplified like this👇
+	swipeCard()
+    .then(() => {
+    	// code for animating the next profile into view
+  	});
 ```
 
 So we call a method called `swipeCard`. This method will start the animation of the card and then return a `promise`. When the card is animated the returned promise would fulfill/resolve
@@ -122,15 +122,15 @@ Let's take another example you have been working with:
 
 ````javascript
 fetch('some-url')
-	.then((response) => response.json())
-	.catch((error) => console.log(error));
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
 	
 // the same could be written like this
 const fetchPromise = fetch('some-url');
 fetchPromise
 	// this method will be called when the server responds!
-	.then((response) => response.json())
-	.catch((error) => console.log(error));
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
 ````
 
 Calling the `fetch` function will make a request to a server and then return a `promise`. When the server responds, the promise will resolve. That means that the method that was given to  `.then` will be called. If the promise is not successful the function given to the `.catch` method will be called. That could happen if a user goes through a tunnel cutting his connection while the `fetch` method was trying to get the response. 
@@ -143,9 +143,9 @@ But the examples with `fetch` you have worked with are a bit different, they loo
 
 ```javascript
 fetch('some-url')
-	.then((response) => response.json())
-	.then((data) => console.log(data))
-	.catch((error) => console.log(error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.log(error));
 ```
 
 How can this be done? Every call to `.then` will return a new promise! We can let's make that a bit more clear:
