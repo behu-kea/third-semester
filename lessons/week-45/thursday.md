@@ -5,8 +5,6 @@
 
 
 
-<!---
-
 ## Peer instruction
 
 
@@ -62,4 +60,3 @@ What will happen when the button is clicked
 3. Logs out `hello`
 4. Nothing happens
 
--->
