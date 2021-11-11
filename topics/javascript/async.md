@@ -179,7 +179,7 @@ Calling this function should log out the `textToLog` after `delay` seconds. Try 
 
 ### Exercise 3
 
-Create a button in html. When clicking this button, use the function you created in the previous task to log out the text: `Called after 5 seconds` 5 seconds after the button is clicked.
+Create a button in html. When clicking this button, log out the text: `Called after 5 seconds` 5 seconds after the button is clicked.
 
 ![Button delay click](https://github.com/HackYourFuture-CPH/JavaScript/raw/master/javascript2/week3/assets/button-delay.gif)
 
@@ -191,8 +191,8 @@ Fetch movies using this [api](https://gist.githubusercontent.com/pankaj28843/08f
 
 1. Log out all the movies
 2. Render the movies to the DOM
+3. Create search functionality so i as a user can search for a movie name and see the movies that match what was searched for
 3. Create a checkbox. When the checkbox is checked, show new movies when the checkbox is not checked show old movies
-4. Create search functionality so i as a user can search for a movie name and see the movies that match what was searched for
 5. Create a select box of movie genres. When selecting a genre only movies that has that genre should be shown
 
 *Exercises inspired and taken from https://github.com/HackYourFuture-CPH/JavaScript*
