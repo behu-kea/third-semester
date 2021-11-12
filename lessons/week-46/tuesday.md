@@ -11,10 +11,15 @@
 Tell me as much as you can about these variables (type, data structure, usage). They can be functions too!
 
 - `name`
+- `result`
 - `age`
 - `car`
+- `myElement`
 - `cars`
 - `getNewMovies`
 - `isLoggedIn`
-- ``
+- `displayTheData`
+- `getImageByName`
+- `data`
+- `randomJoke`
 
