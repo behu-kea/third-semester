@@ -65,4 +65,3 @@ console.log(agesDescription);
 4. `[undefined, undefined, undefined, undefined, undefined, undefined ]`
 5. `undefined`
 
-

@@ -15,7 +15,7 @@
 
 ```javascript
 function add(a, b) {
-	return a + b;
+  return a + b;
 }
 
 function functionCaller(functionAsParameter) {
@@ -39,7 +39,7 @@ What will be logged?
 
 ```javascript
 const user = {
-	stringLogger: function() {
+  stringLogger: function() {
     console.log("this is a string");
   }
 };
