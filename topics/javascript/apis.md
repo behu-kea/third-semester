@@ -42,7 +42,7 @@ fetch(apiUrl)
         console.log(yesOrNoData);
     })
     .catch((error) => {
-    		console.log(error);
+        console.log(error);
     });
 ```
 
@@ -68,16 +68,16 @@ To post data to an API there are two things you need to specify
 ```javascript
 const apiUrl = 'https://my-json-server.typicode.com/typicode/demo/posts';
 fetch(apiUrl, {
-	method: 'POST',
+  method: 'POST',
   body: JSON.stringify( { id: 42, title: "Test title" }),
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
   },
-	})
-    .then(response => response.json())
-    .then(dataReturnedFromPosting => {
-        console.log(yesOrNoData);
-    });
+})
+  .then(response => response.json())
+  .then(dataReturnedFromPosting => {
+  	console.log(yesOrNoData);
+});
 ```
 
 1. `method: 'POST',` - Telling the `fetch` method that the request we will be making should be a `POST` request
