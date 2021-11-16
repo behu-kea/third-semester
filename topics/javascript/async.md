@@ -76,7 +76,7 @@ A promise can be in 3 states
 
 
 
-If you have a variable that is a `promise` there are two functions you can call on that `promise`. Both these functions takes another function as argument!https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif
+If you have a variable that is a `promise` there are two functions you can call on that `promise`. Both these functions takes another function as argument! https://media.giphy.com/media/FcuiZUneg1YRAu1lH2/giphy.gif
 
 1. `.then(successFunction)` - The method that you provide to the `.then` method will get called when the asynchronous task **is successful!** That method in this example is `successFunction`. In promise terms we say that the method is fulfilled or resolved
 2. `.catch(errorFunction)` - The method that you provide to the `.catch` method will get called when the asynchronous task **is not successful!**. That method in this example is `errorFunction`. Here the promise is rejected
@@ -191,7 +191,7 @@ Fetch movies using this [api](https://gist.githubusercontent.com/pankaj28843/08f
 
 1. Log out all the movies
 2. Render the movies to the DOM
-3. Create search functionality so i as a user can search for a movie name and see the movies that match what was searched for
+3. Create search functionality so a user can search for a movie name and see the movies that match what was searched for
 3. Create a checkbox. When the checkbox is checked, show new movies when the checkbox is not checked show old movies
 5. Create a select box of movie genres. When selecting a genre only movies that has that genre should be shown
 

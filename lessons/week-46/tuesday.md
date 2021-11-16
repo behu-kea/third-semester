@@ -8,7 +8,7 @@
 
 ## The fantastic variable name quiz
 
-Tell me as much as you can about these variables (type, data structure, usage). They can be functions too!
+Tell me as much as you can about these variables (type, data structure, usage, is it a good name). They can be functions too! 
 
 - `name`
 - `result`
