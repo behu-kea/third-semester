@@ -29,7 +29,7 @@ What will be logged out?
 
 1. Throws error
 2. `undefined`
-3. What ever data comes from the `https://some-api.dk` api
+3. Whatever data comes from the `https://some-api.dk` api
 4. A promise
 
 
