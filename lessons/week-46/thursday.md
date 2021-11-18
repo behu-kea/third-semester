@@ -27,7 +27,7 @@
 
 
 
-<!--
+
 
 ## Peer instruction questions
 
@@ -81,5 +81,5 @@ What willl be logged out?
 4. 1, 3, 5, 6, 2, 4
 5. Error thrown
 
--->
+
 
