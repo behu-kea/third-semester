@@ -98,3 +98,24 @@ The last thing that might look a bit weird is the `renderMain().then(router.upda
 
 So what happens here is that calling `renderMain` will return a promise that resolves after the DOM has been updated. This can be used to update the links after the DOM has been rendered. Calling `router.updatePageLinks` could also have been done in the `main.js` file after this line `content.innerHTML = mainHtml;`
 
+
+
+## Exercises
+
+
+
+### Exercise 1
+
+Create a file that exports a function that adds two numbers. Import the function in another js file and log the result of adding two numbers. 
+
+
+
+### Exercise 2
+
+Fetch some html from a `/pages` folder and render it to a page
+
+
+
+### Exercise 3
+
+Set up routing so that when going to fx `/about` the program calls a function from another file (using import and export). Inside this file, fetch some html from a `/pages` folder and render it

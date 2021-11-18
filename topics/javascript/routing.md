@@ -160,3 +160,22 @@ router
 
 ```
 
+
+
+
+
+## Exercises
+
+
+
+### Exercise 1
+
+Create a simple portfolio site with the following pages using navigo
+
+- Main page
+- `educations`
+- `projects`
+- `skills`
+- `skills/ID`-  fx `skills/2` should show a page with the second skill
+- Deploy this site to https://surge.sh/
+
