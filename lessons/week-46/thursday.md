@@ -5,6 +5,28 @@
 
 
 
+## Feedback
+
+
+
+`randomBreed = Object.keys(dogbreeddata.message)[Math.floor(Math.random() * Object.keys(dogbreeddata.message).length)];`
+
+- Handin using git
+- 
+
+
+
+
+
+## What i have not taught you
+
+- `this`
+- Class in js
+- How to work with forms and input types in js
+- Async await
+
+
+
 <!--
 
 ## Peer instruction questions

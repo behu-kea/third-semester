@@ -40,7 +40,6 @@ router
     },
 	})
   .resolve();
-}
 ```
 
 There are a couple of things to comment in the code above
@@ -62,6 +61,8 @@ There are a couple of things to comment in the code above
 - The `.resolve();` is a technicality of navigo. Not entirely sure why it is needed
 
 
+
+**IMPORTANT! You need to be at the baseurl http://127.0.0.1:5500/ not http://127.0.0.1:5500/index.html/!!! So not in the index.html page!!!**
 
 Okay, so what we have created so far is just some routes and when a user goes to those routes we log something out. 
 
@@ -132,4 +133,30 @@ const router = new Navigo("/", { hash: true });
 ```
 
 ![routing hash](../../assets/routing-hash.png)
+
+### Adding links
+
+When adding a link we need to add the `data-navigo` attribute to the link. 
+
+`<a href="/user/2?foo=bar" data-navigo>click me</a>`
+
+Then after we have updated the DOM we need to call the `router.updatePageLinks()` function. This will make sure that the new links that was inserted/changed in the DOM works. 
+
+```javascript
+const router = new Navigo("/", { hash: true });
+router
+  .on({
+  	"/": () => {
+      console.log("User requested main page");
+    },
+  	about: () => {
+      console.log("User requested the about page");
+      const content = document.querySelector(".content");
+      content.innerHTML = `<h1>This is the about page</h1><a href="/user/2?foo=bar" data-navigo>click me</a>`;
+      router.updatePageLinks();
+    },
+  })
+  .resolve();
+
+```
 
