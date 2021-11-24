@@ -21,7 +21,7 @@
 
   This makes the code a lot more readable
 
-- Avoid using id's for everything. **ONLY** use id's for elements that are unique. [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) is a good example
+- Avoid using id's for everything. **ONLY** use id's for elements that are unique. [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) is a good example
 
 - In html have dashes between words:
   Instead of
@@ -49,9 +49,9 @@
 
 - Please use `querySelector` and `querySelectorAll` instead of `getElementById`
 
-- Fix indentation. I should not need to say this by now
+- Fix indentation. 
 
-- No inline styles or css! CSS should be in a `.css` file!
+- No inline styles or css! CSS should be in a `.css` file
 
 - Writing proper semantic html! Super important in my eyes. Take a look at my the html at my previous workplace: https://www.amsiq.com/da Also take a look at [this](https://www.youtube.com/watch?v=kGW8Al_cga4) and [this](https://www.youtube.com/watch?v=wu6PPRKcT8Y) video
 
