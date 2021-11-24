@@ -25,7 +25,7 @@
   - [Frontend structure](topics/javascript/frontend-structure.md)
   - [Authentication](topics/javascript/authentication.md)
   - [Connecting your frontend to api](topics/javascript/connecting-frontend-to-api.md)
-  - 
+  - [Checklist](topics/javascript/checklist.md)
   
 - Lessons
 
