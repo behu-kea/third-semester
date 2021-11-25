@@ -72,3 +72,16 @@ If your backend offers secured endpoints, add security where it makes sense.
 
 
 
+## Feedback
+
+The final project will get feedback from me. Focused on the frontend
+
+
+
+## Handin
+
+- First sprint handin **Sunday the 5/12**: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947720
+- Second sprint handin **Sunday the 12/12**: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947725
+
+Remember to go through this checklist before handing in: https://behu.gitbook.io/frontend-ready-for-the-web/topics/checklist
+
