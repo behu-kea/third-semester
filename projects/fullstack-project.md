@@ -33,10 +33,10 @@ By the end of each sprint you must deliver the following:
 - A link to your **hosted** backend
 
 - A link to a short video (max 10 min) where you should explain 
-
-- - Who did what
+  - Who did what
   - How you have structured the code
   - A demo of the features implemented in this sprint
+
 
 You can add all links and requested info in your README file, and just hand in a single link to the groups github repo.
 
