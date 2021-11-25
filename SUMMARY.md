@@ -64,5 +64,6 @@
 - Projects
 
   -  [Frontend project](projects/frontend-project.md)
-
+  -  [Fullstack project](projects/fullstack-project.md)
+  
   
