@@ -80,8 +80,8 @@ The final project will get feedback from Benjamin. It will be focused on the fro
 
 ## Handin
 
-- First sprint handin **Sunday the 5/12**: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947720
-- Second sprint handin **Sunday the 12/12**: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947725
+- First sprint handin **Sunday the 5/12**: [https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947720](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947720)
+- Second sprint handin **Sunday the 12/12**: [https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947725](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=947725)
 
-Remember to go through this checklist before handing in: https://behu.gitbook.io/frontend-ready-for-the-web/topics/checklist
+Remember to go through this checklist before handing in: [https://behu.gitbook.io/frontend-ready-for-the-web/topics/checklist](https://behu.gitbook.io/frontend-ready-for-the-web/topics/checklist)
 
