@@ -53,7 +53,7 @@ So we will have two handins in this project
 
 Assume that a single theater with three movie halls, in Holbæk, want's a proof of concept for a web frontend that uses the API created for Cinema-x.
 
-As explained above, for this part you act also as your own product owner, so what you do will depend on what your backend offers. But the following are **suggestions** for "user-stories" you could implement.
+As explained above, for this part you act also as your own product owner, so what you do will depend on what your backend offers. But the following are **suggestions** for user-stories you could implement.
 
 
 
@@ -74,7 +74,7 @@ If your backend offers secured endpoints, add security where it makes sense.
 
 ## Feedback
 
-The final project will get feedback from me. Focused on the frontend
+The final project will get feedback from Benjamin. It will be focused on the frontend
 
 
 
