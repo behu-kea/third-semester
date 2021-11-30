@@ -72,6 +72,28 @@ If your backend offers secured endpoints, add security where it makes sense.
 
 
 
+### Requirements
+
+
+
+#### Technical Requirements
+
+- Uses routing using Navigo in the frontend. Check this site that shows how to do different kinds of routing: https://github.com/behu-kea/navigo-routing-simple
+  You can use it as a boilerplate (starter code) for your project. 
+- Fetches some data from the api you created in Springboot
+- The backend and the frontend should be deployed, working and talking to each other. **Remember to test this early!**
+
+
+
+#### Projects based requirements
+
+- The project can be made alone or in groups
+- If you hand in as a group then you need to comment who has written the code! There is off course code you wrote together that is fine (but also comment that in the code). But there need to be contributions from every team member
+
+
+
+
+
 ## Feedback
 
 The final project will get feedback from Benjamin. It will be focused on the frontend
